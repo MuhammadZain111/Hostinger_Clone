@@ -1,0 +1,1652 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hosting platform made for You</title>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+
+     <link rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+
+    
+  <link rel="icon" href="logo.png" type="image/x-icon">
+
+ <script src="https://cdn.tailwindcss.com"></script>
+
+ <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+ 
+<!-------------- Here the code for the header section starts ---------->
+<header  id="mobile-menu " class="header  border-bottom-4 border-black w-full h-20 sm:h-20  bg-white fixed-top flex  justify-content-between         overflow-hidden   ">
+
+<div class=" inline-block bg-red   "  > 
+<div class="logo w-40   sm:w-[40%]  sm:p-6 h-full p-3   object-contain" id="logo"><img class="logo_image" src="/Tailwind/logo.png" alt"Hostinger"></div>
+<div class="flag" id="flag"><img class="flag_image" src="" alt"Hostinger"></div>
+</div>
+
+<nav   class="nav flex flex-row  hidden  lg:block lg:p-8 lg:flex lg:items-center  lg:gap-14    " >
+
+ <div class="relative inline-block text-left">
+  <div>
+     <button type="button" class="inline-flex w-full justify-center  gap-x-1.5   px-3 py-2 text-base font-base  " id="menu-button" aria-expanded="false" aria-haspopup="true">
+          WordPress
+          <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+      </button>
+  </div>
+
+  <div id="dropdown-menu" class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+    <div class="py-1" role="none">
+        <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+        <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Edit</a>
+         </div>
+    <div class="py-1" role="none">
+        <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-4">Share</a>
+        
+    </div>
+    <div class="py-1" role="none">
+        <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-6">Delete</a>
+    </div>
+</div>
+</div>
+
+
+ <div class="nav_elem text-base    "> Website Builder</div>
+   
+ <!-- here the code for the navbar begins -->
+
+ <div class="relative inline-block text-left">
+  <div>
+     <button type="button" class="inline-flex w-full justify-center  gap-x-1.5   px-3 py-2 text-base font-base " id="menu-button" aria-expanded="false" aria-haspopup="true">
+          Hosting
+          <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+          </svg>
+      </button>
+  </div>
+
+  <div id="dropdown-menu" class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+      <div class="py-1" role="none">
+          <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+          <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Edit</a>
+           </div>
+      <div class="py-1" role="none">
+          <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-4">Share</a>
+          
+      </div>
+      <div class="py-1" role="none">
+          <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-6">Delete</a>
+      </div>
+  </div>
+</div>
+
+<div class="   text-base  ">Pro</div>
+<div class="   text-base     ">Domains</div>
+<button id="loginbutton" class="text-lg  border-2  border-black w-20 h-12 rounded-sm font-semibold   overflow-hidden"   >Login</button>
+
+</nav>
+</header> 
+
+
+<!-----Here the code for the main-container starts -->
+
+<div class="main-container w-full h-auto  min-w-full max-h- min-h-full  mt-20  bg-transparent overflow-x-hidden z-1000 "> 
+  
+  <div class="herosection  pb-6  border-box w-full h-full min-h-full  max-h-full  min-w-full max-w-full flex flex-col  lg:flex-row  lg:max-w-full lg:mt-[3%]  lg:gap-x-10    lg:px-[9%]    overflow-hidden   ">
+
+    <div class="leftcontainer  w-full  min-h-full max-h-full flex flex-col  items-center  text-[#2f1c6a] mb-8  lg:items-start   lg:w-[45%]  h-full  lg:pr-6  lg:items-start lg:mb-4  " id="innercon">
+    
+      <div class="mainheading min-w-full max-w-full  text-center  "><h1 class="font-bold text-2xl   text-[#2f1c6a] mb-2      lg:font-semibold  lg:font-[700]   lg:text-4xl   ">Everything You Need to Create a Website</h1>
+      </div>
+
+        <div class="font-semibold text-lg  min-width-full text-center max-w-full  text-[#2f1c6a]  mb-3  lg:text-xl  lg:mb-6    " id="sale"> Upto <span class=" text-[#673de6]" > 78% </span>off Hosting + Website Builder </div>
+      
+
+      <div  class="treepoints   mb-3  lg:mb-4">
+      <div  class=" flex  ">
+      <div   class=" w-8 h-4  "    >
+      <img  class=" min-h-full max-h-full min-w-full max-w-full  h-full w-full object-contain" src="/Tailwind/greentick.svg" id="tick">
+      </div><span> Free Domain</span>
+      <!-- <img  src="/Tailwind/question.svg" id="questionone"> -->
+      </div>
+  
+      <div  class=" flex   ">
+      <div  class=" w-8 h-4     "       ><img  class="min-h-full max-h-full min-w-full max-w-full  h-full w-full object-contain" src="/Tailwind/greentick.svg" id="tick"></div><span> Free Website Migration</span>
+      
+       </div>
+  
+       <div class="flex     "  >
+        <div   class="w-8 h-6  "    >
+          <img   class=" min-h-full max-h-full min-w-full max-w-full  h-full w-full object-contain"  src="/Tailwind/greentick.svg" id="tick">
+        </div><span class=" text-center"> 24/7 Customer Support</span>
+      </div>
+  
+         </div>
+      
+ 
+      <div class="mb-4 lg:mb-6 flex flex-col ">
+        <div class="mb-2  ">
+          <span>Rs</span>
+          <span  class="price-info font-bold mb-1 text-4xl lg:font-semibold lg:text-5xl  lg:mb-3 !important   "  >559</span>
+          <span>/mo</span>
+        </div>
+        <div>
+          <span class="font-bold mt-2  text-xl   "> +3 Months Free</span>
+        </div>
+        </div>
+
+      <div   class="btn-cont    h-full    flex flex-col  mt-2 items-center  lg:items-start  lg:mt-6  " >
+      
+        <div class="timebtn h-16 flex flex-row items-center  lg:w-[85%] lg:h-8     rounded-sm text-black     mb-8  lg:gap-x-2    ">
+          <div class=" h-14  w-16 lg:h-16 lg:w-20 border-1 border-[#673de6] rounded-lg text-center align-middle text-xl  ">02</div>:
+          <div class=" h-14  w-16  lg:h-16 lg:w-20 border-1 border-[#673de6] rounded-lg  text-xl text-center ">16</div>:
+          <div class=" h-14  w-16  lg:h-16 lg:w-20 border-1 border-[#673de6] rounded-lg  text-center text-xl  ">44</div>:
+          <div class=" h-14  w-16  lg:h-16 lg:w-20 border-1 border-[#673de6] rounded-lg text-center text-xl  ">05</div>
+        </div>
+      
+        <div class="claim-btn flex items-center justify-center   w-64 rounded-sm text-white  h-12  bg-[#673de6] font-semibold   lg:w-[22rem] left-align  " ><button id="claim-btn">Claim Deal</button> </div>
+        
+
+       <div class="gaurantee-container  flex lg:mt-4 ">
+        <div  class="w-10 h-6"    >
+        <img class="  max-w-full  max-h-full  object-contain"    src="/Tailwind/gaurantee.svg" id="tick">
+         </div>
+        <span class="   "  >30-Days Money-Back Gaurantee</span>
+       </div>
+      
+    </div>
+
+    </div>
+
+        <div class="rightcontainer h-full max-h-full max-w-full   sm:w-full sm:px-10 md:px-14 lg:px-0  lg:w-[80%]  ">
+     <img  class="h-full w-full max-w-full object-contain"  src="/Tailwind/frontpageimg.png" >
+      </div>
+
+  </div>
+
+
+
+
+
+
+  <!-- here  is the container of the services section for small screen slider -->
+    
+
+<!-- 
+
+    <div class="slide smallscreen-slider   "    id="#services" >
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col-md-4   ">
+  
+              here box-1 code starts 
+  
+            <div class="box border-1 max-w-full  w-[80%] mx-8 px-8  sm:mx-0 sm:w-[28%]  border-gray  flex flex-col  text-[#2f1c6a]  sm:px-8    sm:py-8  rounded-sm  shadow-transparent " id="box1">
+   
+      <div  class="   mb-6  "    >
+        <h2 class="secondarycenter text-center  text-xl font-bold text-[#2f1c6a]      ">Premium</h2>
+
+        <p class="  font-medium font-[#2f1c6a]  "    >Everything you need to create your website</p>
+      
+      </div>
+
+        <div class="details  mt-4 flex flex-col  items-center    " id="firstdetails">
+ 
+         <div class="save     ">
+         <span class="line-through mr-2       ">Rs2,499</span><span class="bg-[#d1c4e9] text-[#673de9] p-2    font-bold rounded-full w-6 "    id="save"> save 78%</span>
+          </div>
+ 
+          <div class="price-section  mt-4 mb-4 flex     " id="price1">
+           <div><span><span class="font-medium"id="rs">Rs</span></div>
+          <div  class="text-5xl font-bold text-[#2f1c6a]    "      ><span    >559</span></div>
+          <div><span id="rs" >/mo</span></div> 
+          </div>
+          
+          <span class="font-bold text-[#673de6]  mb-4  "  id="desc">+3 months FREE</span>
+        
+ 
+         <div  class="w-64 h-12 bg-[#673de6] mb-4   flex items-center justify-center  rounded-sm "> 
+          <button type="button" class="btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn1">Add to Cart</button> </div>
+       
+ 
+         <span id="lower_txt   font-medium  mb-4   ">Rs.1,099/mo when you renew</span>
+
+         </div>
+        
+          
+        <div class="thinline  color-gray-500  w-[90%] h-1   mb-4  "  id="line"></div>
+ 
+        <div class="pricing  mt-8   ">
+ 
+          <div class=" font-bold  text-lg mb-4 "> 
+          <span    id="features">Top Features</span>
+        </div>
+
+        <div class="py-2 flex">
+          <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+          <span class="font-bold   " id="bold">Standard </span><span id="text">  Websites</span></div>  
+ 
+        
+          <div class="py-2 flex">
+            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+            <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+ 
+            
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+ 
+              
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                
+                <div class="py-2 flex">
+                  <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+              
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+               
+         
+          </div>
+ 
+          <br></br>
+          <h6 id="no-code"  class="font-bold  text-lg    ">No code Website Builder </h6> 
+          
+ 
+       <div class="pricing">
+
+        <div class="py-2 flex">
+          <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+          <span class="font-bold" id="bold">Woo </span><span id="text"> Commerce</span></div>  
+ 
+          <div class="py-2 flex">
+            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+            <span class="font-bold" id="bold">Free  </span><span id="text"> Aumtomatic Website migtration</span></div>  
+   
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">Free </span><span id="text">1-clik WordPress Installation</span></div>  
+            
+          </div>
+ 
+          
+        <div class="morefeatures" id="morefeatures">See less features</div>
+         <span><img src=""   ></span>
+
+               </div>
+     
+            
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="col-md-4">
+
+          here box -2 code starts
+          
+  <div class="box border-1 max-w-full  w-[80%] mx-8 px-8  sm:mx-0 sm:w-[28%]  border-gray  flex flex-col  text-[#2f1c6a]  sm:px-8    sm:py-8  rounded-sm  shadow-transparent  mb-12      " id="box1">
+   
+      <div  class="   mb-6  "    >
+        <h2 class="secondarycenter text-center  text-xl font-bold text-[#2f1c6a]      ">Premium</h2>
+
+        <p class="  font-medium font-[#2f1c6a]  "    >Everything you need to create your website</p>
+      
+      </div>
+
+        <div class="details  mt-4 flex flex-col  items-center    " id="firstdetails">
+ 
+         <div class="save     ">
+         <span class="line-through mr-2       ">Rs2,499</span><span class="bg-[#d1c4e9] text-[#673de9] p-2    font-bold rounded-full w-6 "    id="save"> save 78%</span>
+          </div>
+ 
+          <div class="price-section  mt-4 mb-4 flex     " id="price1">
+           <div><span><span class="font-medium"id="rs">Rs</span></div>
+          <div  class="text-5xl font-bold text-[#2f1c6a]    "      ><span    >559</span></div>
+          <div><span id="rs" >/mo</span></div> 
+          </div>
+          
+          <span class="font-bold text-[#673de6]  mb-4  "  id="desc">+3 months FREE</span>
+        
+ 
+         <div  class="w-64 h-12 bg-[#673de6] mb-4  max-w-full   flex items-center justify-center  rounded-sm "> 
+          <button type="button" class="btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn1">Add to Cart</button> </div>
+       
+ 
+         <span id="lower_txt   font-medium  mb-4   ">Rs.1,099/mo when you renew</span>
+
+         </div>
+        
+          
+        <div class="thinline  color-gray-500  w-[90%] h-1   mb-4  "  id="line"></div>
+ 
+        <div class="pricing  mt-8   ">
+ 
+          <div class=" font-bold  text-lg mb-4 "> 
+          <span    id="features">Top Features</span>
+        </div>
+
+        <div class="py-2 flex">
+          <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+          <span class="font-bold   " id="bold">Standard </span><span id="text">  Websites</span></div>  
+ 
+        
+          <div class="py-2 flex">
+            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+            <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+ 
+            
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+ 
+              
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                
+                <div class="py-2 flex">
+                  <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+              
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+               
+         
+          </div>
+ 
+          <br></br>
+          <h6 id="no-code"  class="font-bold  text-lg    ">No code Website Builder </h6> 
+          
+ 
+       <div class="pricing">
+
+        <div class="py-2 flex">
+          <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+          <span class="font-bold" id="bold">Woo </span><span id="text"> Commerce</span></div>  
+ 
+          <div class="py-2 flex">
+            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+            <span class="font-bold" id="bold">Free  </span><span id="text"> Aumtomatic Website migtration</span></div>  
+   
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">Free </span><span id="text">1-clik WordPress Installation</span></div>  
+     
+
+        
+          </div>
+ 
+          
+        <div class="morefeatures" id="morefeatures">See less features</div>
+         <span><img src=""   ></span>
+
+      </div>
+              
+          </div>
+        </div>
+
+
+
+
+        <div class="carousel-item">
+          <div class="col-md-4">
+            
+here the box3 starts
+  <div class="box  border-1  max-w-full w-[80%] mx-8 px-8  sm:mx-0  sm:w-[28%]  border-[#673DE6]    flex flex-col  text-[#2f1c6a]  px-8 py-8  rounded-sm  " id="box2">
+       
+       <div  class="popular" id="popular"><p>Most Popular</p></div>
+          
+      <div  class="   mb-6  "    >
+        <h2 class="secondarycenter   text-center  text-xl font-bold text-[#2f1c6a]            ">Business</h2> 
+        <p class="intro  font-medium font-[#2f1c6a] ">Level-up with more power and enhanced features</p>    
+      </div>
+
+        <div class="details  mt-4 flex flex-col  items-center">
+ 
+         <div class="save">
+           <span   class="line-through mr-2  "  > Rs2,499 </span><span id="save" class="bg-[#f8bbd0] text-[#fc5185] p-2    font-bold rounded-full w-6"     > save 78%</span>
+          </div>
+ 
+          <div class="price-section  price-section  mt-4 mb-4 flex   " id="price1">
+           <div><span><span id="rs">Rs</span></div>
+          <div><span class="pricetag text-5xl font-bold text-[#2f1c6a]">999</span></div>
+          <div><span id="rs" >/mo</span></div> 
+          </div>
+          
+         <span class="font-bold text-[#fc5185]  mb-4 ">+3 months FREE</span>
+    
+         <div class="btn w-64 h-12 bg-[#fc5185] mb-4 max-w-full  flex items-center justify-center  rounded-sm">
+      <button type="button" class="btn  btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn2">Add to Cart</button>
+    
+     </div>
+
+         
+        <div><span class="font-medium mb-4" >Rs.1,099/mo when you renew</span>    </div> 
+         
+       </div>
+ 
+        <div class=" thinline  color-gray-500  w-[90%] h-1   mb-4       "></div>
+          
+ 
+          <div class="pricing  ">
+            <div class="font-bold  text-lg mb-4"   >
+              <span class="features">Top Features</span>
+            </div>
+       
+            <div class="pricing  mt-8   ">
+ 
+              <div class=" font-bold  text-lg mb-4 "> 
+              <span    id="features">Top Features</span>
+            </div>
+    
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold   " id="bold">Standard </span><span id="text">  Websites</span></div>  
+     
+            
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+     
+                
+                <div class="py-2 flex">
+                  <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+     
+                  
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                    
+                    <div class="py-2 flex">
+                      <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                      <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                  
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+              </div>
+        
+         </div>
+    
+             <br></br>
+ 
+             <h6 class="font-bold  text-lg">No-code Website Builder </h6> 
+             
+ 
+          <div class="pricing">
+            <div class="py-2 flex">
+              <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+          
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+                <div class="py-2 flex">
+                  <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+              
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>        
+          </div>
+        </div>
+      </div>
+
+
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </div>
+  
+-->
+
+
+  <!-- Here is thecode for the heading section -->
+
+  <div class="center flex flex-column py-3 items-center text-2xl w-full h-32 mt-12 sm:h-44 md:h-48  lg:h-52  font-medium  sm:text-3xl sm:font-semibold sm:mt-12  sm:py-6  lg:text-4xl  lg:font-semibold lg:py-8 sm:w-full  "> 
+    
+    <h1 class="h-primary  text-[#2f1c6a]  font-bold  lg:px-[9%]    ">Pick Your Perfect Plan</h1></div> 
+
+
+
+
+<!-- ---Here is the code for the slider  for the small screens  -->
+
+<div class="slider">
+
+  <section class="servicescontainer w-full h-auto sm:w-full  mb-20  lg:mb-16  lg:px-[9%]   ">
+
+      <div class="services w-full h-auto flex flex-col sm:flex-row  sm:gap-x-10   sm:mx-[5%]    lg:gap-x-10  lg:mx-[5%]   ">
+     
+     <div class="box border-1 max-w-full  w-[80%] mx-8 px-8  sm:mx-0 sm:w-[28%]  border-gray  flex flex-col  text-[#2f1c6a]  sm:px-8    sm:py-8  rounded-sm  shadow-transparent  mb-12      " id="box1">
+   
+      <div  class="   mb-6  "    >
+        <h2 class="secondarycenter text-center  text-xl font-bold text-[#2f1c6a]      ">Premium</h2>
+
+        <p class="  font-medium font-[#2f1c6a]  "    >Everything you need to create your website</p>
+      
+      </div>
+
+        <div class="details  mt-4 flex flex-col  items-center    " id="firstdetails">
+ 
+         <div class="save     ">
+         <span class="line-through mr-2       ">Rs2,499</span><span class="bg-[#d1c4e9] text-[#673de9] p-2    font-bold rounded-full w-6 "    id="save"> save 78%</span>
+          </div>
+ 
+          <div class="price-section  mt-4 mb-4 flex     " id="price1">
+           <div><span><span class="font-medium"id="rs">Rs</span></div>
+          <div  class="text-5xl font-bold text-[#2f1c6a]    "      ><span    >559</span></div>
+          <div><span id="rs" >/mo</span></div> 
+          </div>
+          
+          <span class="font-bold text-[#673de6]  mb-4  "  id="desc">+3 months FREE</span>
+        
+ 
+         <div  class="w-64 h-12 bg-[#673de6] mb-4  max-w-full   flex items-center justify-center  rounded-sm "> 
+          <button type="button" class="btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn1">Add to Cart</button> </div>
+       
+ 
+         <span id="lower_txt   font-medium  mb-4   ">Rs.1,099/mo when you renew</span>
+
+         </div>
+        
+          
+        <div class="thinline bg-[#94a3b8] w-[90%] h-1  mb-2 mt-5 "  id="line"></div>
+ 
+        <div class="pricing  mt-8   ">
+ 
+          <div class=" font-bold  text-lg mb-4 "> 
+          <span    id="features">Top Features</span>
+        </div>
+
+        <div class="py-2 flex">
+          <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+          <span class="font-bold pr-1  " id="bold">Standard</span><span id="text">  Websites</span></div>  
+ 
+        
+          <div class="py-2 flex">
+            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+            <span class="font-bold pr-1" id="bold">Standard</span><span id="text">Performance</span></div>  
+ 
+            
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold pr-1 " id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+ 
+              
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold  pr-1 " id="bold">Weekly</span><span id="text">Backups</span></div>  
+                
+                <div class="py-2 flex">
+                  <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                  <span class="font-bold  pr-1" id="bold">Standard</span><span id="text">Websites</span></div>  
+              
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+               
+         
+          </div>
+ 
+          <br></br>
+          <h6 id="no-code"  class="font-bold  text-lg    ">No code Website Builder </h6> 
+          
+ 
+       <div class="pricing">
+
+        <div class="py-2 flex">
+          <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+          <span class="font-bold   " id="bold">Woo </span><span id="text"> Commerce</span></div>  
+ 
+          <div class="py-2 flex">
+            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+            <span class="font-bold  pr-1 " id="bold">Free  </span><span id="text"> Aumtomatic Website migtration</span></div>  
+   
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold  pr-1 " id="bold">Free </span>Website migtration<span id="text"></span></div>  
+      
+     
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold   pr-1  " id="bold">Free </span><span id="text">1-clik WordPress Installation</span></div>  
+        </div>
+ 
+          
+        <div class="morefeatures" id="morefeatures">See less features</div>
+         <span><img src=""   ></span>
+
+      </div>
+     
+
+
+      <div class="box  border-1  max-w-full w-[80%] mx-8 px-8  sm:mx-0  sm:w-[28%]  border-[#673DE6]    flex flex-col  text-[#2f1c6a]  px-8 py-8  rounded-sm  " id="box2">
+       
+       <div  class="popular" id="popular"><p>Most Popular</p></div>
+          
+      <div  class="   mb-6  "    >
+        <h2 class="secondarycenter   text-center  text-xl font-bold text-[#2f1c6a]            ">Business</h2> 
+        <p class="intro  font-medium font-[#2f1c6a] ">Level-up with more power and enhanced features</p>    
+      </div>
+
+        <div class="details  mt-4 flex flex-col  items-center mb-8">
+ 
+         <div class="save">
+           <span   class="line-through mr-2  "  > Rs2,499 </span><span id="save" class="bg-[#f8bbd0] text-[#fc5185] p-2    font-bold rounded-full w-6"     > save 78%</span>
+          </div>
+ 
+          <div class="price-section  price-section  mt-4 mb-4 flex   " id="price1">
+           <div><span><span id="rs">Rs</span></div>
+          <div><span class="pricetag text-5xl font-bold text-[#2f1c6a]">999</span></div>
+          <div><span id="rs" >/mo</span></div> 
+          </div>
+          
+         <span class="font-bold text-[#fc5185]  mb-4 ">+3 months FREE</span>
+    
+         <div class="btn w-64 h-12 bg-[#fc5185] mb-4 max-w-full  flex items-center justify-center  rounded-sm">
+      <button type="button" class="btn  btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn2">Add to Cart</button>
+    
+     </div>
+
+         
+        <div><span class="font-medium mb-4" >Rs.1,099/mo when you renew</span>    </div> 
+         
+        <div class="thinline bg-[#94a3b8]  w-[90%] h-1  mb-2 mt-5 "  id="line"></div>
+ 
+
+       </div>
+ 
+       
+         
+ 
+          <div class="pricing  ">
+            <div class="  text-lg mb-4"   >
+              <span class="features font-black  ">Top Features</span>
+            </div>
+       
+            <div class="pricing  mt-8   ">
+ 
+            
+    
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold   " id="bold">Standard </span><span id="text">  Websites</span></div>  
+     
+            
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+     
+                
+                <div class="py-2 flex">
+                  <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+     
+                  
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                    
+                    <div class="py-2 flex">
+                      <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                      <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                  
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+              </div>
+        
+         </div>
+    
+             <br></br>
+ 
+             <h6 class="font-bold  text-lg">No-code Website Builder </h6> 
+             
+ 
+          <div class="pricing">
+            <div class="py-2 flex">
+              <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+          
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+                <div class="py-2 flex">
+                  <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+              
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+                   
+
+
+
+
+             </div>
+        </div>
+     
+       
+        <div class="box border-1 w-[80%] max-w-full    mx-8 px-8 sm:mx-0  sm:w-[28%]    border-gray    flex flex-col  text-[#2f1c6a]  px-8 py-8  rounded-sm    " id="box3">
+   
+          <div  class="   mb-6  "    >
+            <h2 class="secondarycenter text-center  text-xl font-bold text-[#2f1c6a] ">Cloud Startup</h2>
+    
+            <p class="  font-medium font-[#2f1c6a]  "    >Everything you need to create your website</p>
+          
+          </div>
+    
+            <div class="details  mt-4 flex flex-col  items-center    " id="firstdetails">
+     
+             <div class="save     ">
+             <span class="line-through mr-2       ">Rs2,499</span><span class="bg-[#d1c4e9] text-[#673de9] p-2    font-bold rounded-full w-6 "    id="save"> save 78%</span>
+              </div>
+     
+              <div class="price-section  mt-4 mb-4 flex     " id="price1">
+               <div><span><span class="font-medium"id="rs">Rs</span></div>
+              <div  class="text-5xl font-bold text-[#2f1c6a]    "      ><span    >2,499</span></div>
+              <div><span id="rs" >/mo</span></div> 
+              </div>
+              
+              <span class="font-bold text-[#673de6]  mb-4  "  id="desc">+3 months FREE</span>
+            
+     
+             <div  class="w-64 h-12 bg-[#673de6] mb-4  max-w-full flex items-center justify-center  rounded-sm "> 
+              <button type="button" class="btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn1">Add to Cart</button> </div>
+             
+             <span id="lower_txt   font-medium  mb-4   ">Rs.1,099/mo when you renew</span>
+    
+             </div>
+            
+              
+            <div class="thinline  color-gray-500  w-[90%] h-1   mb-4  "  id="line"></div>
+     
+            <div class="pricing  mt-8   ">
+     
+              <div class=" font-bold  text-lg mb-4 "> 
+              <span    id="features">Top Features</span>
+            </div>
+    
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold   " id="bold">Standard </span><span id="text">  Websites</span></div>  
+     
+            
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+     
+                
+                <div class="py-2 flex">
+                  <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+     
+                  
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                    
+                    <div class="py-2 flex">
+                      <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                      <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                  
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div> 
+                        
+                        <div class="py-2 flex">
+                          <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                          <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                      
+                          <div class="py-2 flex">
+                            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" > </div>
+                            <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+    
+
+
+
+
+
+
+
+
+
+          </div>
+     
+          <div>
+      <h6 id="no-code"  class="font-extrabold  text-lg mt-4 mb-2">Managed Website </h6> 
+
+            </div>
+              
+     
+           <div class="pricing">
+    
+            <div class="py-2 flex">
+              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+              <span class="font-bold" id="bold">Woo </span><span id="text"> Commerce</span></div>  
+     
+              <div class="py-2 flex">
+                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                <span class="font-bold" id="bold">Free  </span><span id="text"> Aumtomatic Website migtration</span></div>  
+       
+                <div class="py-2 flex">
+                  <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                  <span class="font-bold" id="bold">Free </span><span id="text">1-clik WordPress Installation</span></div>  
+         
+    
+            
+              </div>
+     
+              
+            <div class="morefeatures" id="morefeatures">See less features</div>
+             <span><img src=""   ></span>
+    
+          </div>
+         
+    </div>
+  </section>
+
+</div>
+
+<!-- here the code for the datacontainer starts  -->
+
+ <div class="datacontainer w-full  py-16   sm:py-24   bg-[#fafbff]  font-family-[DM Sans,sans-serif]  h-auto  mt-12  lg:px-[10%] ">
+
+  <div  class="datatxt w-full  h-auto  ">
+   <h2 class="font-bold  text-2xl    md:text-3xl lg:font-semibold  lg:text-4xl   text-[#2f1c6a] text-center  mb-4 ">Data Centers All Around the World</h2> 
+   <p  class="text-center  font-medium  text-[#2f1c6a] pb-10      "  >Our web hosting, WordPress hosting, and cloud hosting plans offer server locations in: USA, United Kingdom, France, India, Singapore, Brazil, Lithuania,<br> and the Netherlands.</p> 
+  </div>
+
+  <div class="dataimg   w-full "> <img src="/Tailwind/Map.png">    </div>
+ </div>
+
+ <!-- HERE THE CODE FOR  THE WEBSITE SOL CONTAINER STARTS -->
+
+ <div class="websol-container h-full  w-full flex-col mx-3 py-16 sm:py-16  md:py-24  sm:mx-4 md:mx-[5%] lg:mx-[7%]  md:mb-4   text-[#2f1c6a]   lg:px-[10%]  lg:pl-[15%]      ">
+
+  <div class="firsttop max-w-full w-full h-auto flex flex-col sm:flex-row  sm:gap-x-24   lg:pb-4  ">
+
+  <div class="left_container max-w-full mb-4 pr-0 w-full    sm:w-[36%] sm:pr-16       ">
+
+ <h1  class="font-bold  text-2xl  lg:text-4xl  text-[#2f1c6a] text-start  mb-8 ">All-in-one Website Solution</h1>
+
+<div class="incon flex mb-3   ">
+  <div   class=" w-8 h-8  ">
+    <img  class=" max-w-full w-full h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick">
+  </div> 
+  <span class="text-[#2f1c6a]"   >Manage up to 100 websites.</span>
+</div>
+
+
+<div  class="incon  flex text-[#2f1c6a]  mb-3  ">
+<div class=" w-8   h-8">
+<img  class=" max-w-full  max-full  h-full "   src="/Tailwind/greentick.svg" id="tick"> 
+</div>
+<span>Register a domain name for free</span>
+</div>
+
+
+<div class="incon flex text-[#2f1c6a] mb-3  " >
+
+  <div   class=" w-8   h-8"   >
+      <img  class="max-w-full  max-full  h-full"    src="/Tailwind/greentick.svg" id="tick">
+  </div>
+  <span>Set up a professional business email address.</span> 
+</div>
+
+
+<div class="incon   flex text-[#2f1c6a]  mb-3 " >
+    <div class="w-8   h-8  ">
+    <img  class="max-w-full  max-full  h-full"  src="/Tailwind/greentick.svg" id="tick"> 
+    </div>
+  <span>Optimize your workflow with managed WordPress hosting</span>
+</div>
+
+<div class="incon flex text-[#2f1c6a]  h-14  mb-3  ">
+  <div  class="w-8   h-8  "   >
+  <img  class="max-w-full  max-full  h-full"  src="/Tailwind/greentick.svg" id="tick">
+  </div>
+  <span>Launch websites quickly with our Website Builder.</span></div>
+  </div>
+  
+  <div  class="right_container  w-full h-full px-2  pb-4    sm:w-[45%]" >   
+  <img src="/Tailwind/descr.png"></div>
+  
+</div>
+
+  <div class="lowercontainer w-full  flex flex-col  gap-y-10  sm:gap-x-10    text-[#2f1c6a] md:gap-x-12 md:flex-row   sm:px-2        ">
+
+
+    <div class="firstlower max-w-full w-full  px-6  py-8  sm:py-6 sm:h-56 md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+      <div  class="w-60     h-16 py-2 md:h-10     "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+      <div class="   mb-2">
+      <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+      </div>
+     <div class="w-[80%] h-10  py-2 "  >
+     <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+     </div>
+    </div>
+
+
+    <div class="Secondlower max-w-full w-full  px-6  py-8 sm:py-2 sm:h-56  md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+      <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+      <div class="   mb-2">
+      <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+      </div>
+     <div class="w-[80%] h-10  py-2 "  >
+     <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+     </div>
+    </div>
+
+
+    <div class="thirdlower max-w-full w-full  px-6  py-8  sm:py-2 sm:h-56 md:w-[28%] flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+      <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+      <div class="   mb-2">
+      <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+      </div>
+     <div class="w-[80%] h-10  py-2 "  >
+     <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+     </div>
+    </div>
+
+  
+    </div>
+
+
+
+  </div> 
+
+<!-- here the code for the web-sol contanber starts -->
+
+  <div class="webspeed-container h-full      w-full flex-col  py-16 sm:py-16  md:py-24   sm:mx-4 md:mx-[5%] lg:mx-[4%]  md:mb-32   text-[#2f1c6a] lg:px-[10%]   overflow-hidden    ">
+
+<div   class="webspeedone flex   max-w-full w-full h-auto flex flex-col sm:flex-row  sm:gap-x-14  lg:pb-4   " >
+
+      <div  class="left_section w-full h-full px-2  pb-4  sm:w-[40%] order-1 sm:order-1 ">
+      <img  class=" object-contain"   src="/Tailwind/graph.png" >
+      </div>
+
+      <div class="right_section  max-w-full mb-4 pr-0  px-1   w-full sm:w-[40%] sm:pr-20 order-0 sm:order-1      ">
+     
+        <h1  class="font-bold  text-2xl  lg:text-4xl  text-[#2f1c6a] text-start  mb-8 ">Maximize Website Speed</h1>
+
+        <div class="incon flex mb-3   ">
+          <div   class=" w-8 h-8  ">
+            <img  class=" max-w-full w-full h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick">
+          </div> 
+          <span class="text-[#2f1c6a]"   >Maximize performance with LiteSpeed Web Server technology.</span>
+        </div>
+        
+        
+        <div  class="incon  flex text-[#2f1c6a]  mb-3  ">
+        <div class=" w-8   h-8">
+        <img  class=" max-w-full  max-full  h-full "   src="/Tailwind/greentick.svg" id="tick"> 
+        </div>
+        <span>Enjoy optimized performance with advanced cache solutions.</span>
+        </div>
+        
+        
+        <div class="incon flex text-[#2f1c6a] mb-3  " >
+        
+          <div   class=" w-8   h-8"   >
+              <img  class="max-w-full  max-full  h-full"    src="/Tailwind/greentick.svg" id="tick">
+          </div>
+          <span>Host your website in any of our server locations: USA, United Kingdom, Brazil, Singapore, Lithuania, India, and the Netherlands.</span> 
+        </div>
+              
+    </div>
+  </div>
+
+
+    <div class="descriptionsec  order-1 w-full  flex flex-col  gap-y-10  sm:gap-x-10    text-[#2f1c6a] md:gap-x-12 md:flex-row   sm:px-2    ">
+  
+      <div class="firstsub max-w-full w-full  px-6  py-8  sm:py-6 sm:h-56 md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60     h-16 py-2 md:h-10     "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/bitcatcha-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Speed test results of our Hostinger US test site came back with a worldwide average of a blazing fast 143 ms.</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+  
+      <div class="Secondsub max-w-full w-full  px-6  py-8 sm:py-2 sm:h-56  md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/wpbeginner-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>If you have a small business website, an online store, or a growing blog, your website can easily handle sudden traffic spikes.</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+  
+      <div class="thirdsub max-w-full w-full  px-6  py-8  sm:py-2 sm:h-56 md:w-[28%] flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/website-planet-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>If you have a small business website, an online store, or a growing blog, your website can easily handle sudden traffic spikes.</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+
+      </div>
+    
+      </div>
+  
+  <!-- here the code for the web team container starts  -->
+  
+
+<div class="webteam-container w-full  flex flex-col  h-full  w-full flex-col   py-16 sm:py-16  md:py-24 lg:pt-4 lg:pb-24     sm:mx-4 md:mx-[5%] lg:mx-[7%]  md:mb-4   text-[#2f1c6a]  lg:px-[10%]     ">
+
+  <div class="firsttop max-w-full w-full h-auto flex flex-col sm:flex-row  sm:gap-x-14       ">
+
+    <div class="left_container max-w-full mb-4 pr-0 w-full    sm:w-[40%] sm:pr-16       ">
+  
+   <h1  class="font-bold  text-2xl  lg:text-4xl  text-[#2f1c6a] text-start  mb-8 ">Our Team is Here to Help <br>You 24/7</h1>
+  
+  <div class="incon flex mb-3   ">
+    <div   class=" w-8 h-8  ">
+      <img  class=" max-w-full w-full h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick">
+    </div> 
+    <span class="text-[#2f1c6a]">Receive help from our agents anytime via live chat support.</span>
+  </div>
+  
+  
+  <div  class="incon  flex text-[#2f1c6a]  mb-3  ">
+  <div class=" w-8   h-8">
+  <img  class=" max-w-full  max-full  h-full "   src="/Tailwind/greentick.svg" id="tick"> 
+  </div>
+  <span>Follow step-by-step video walkthroughs and guides.</span>
+  </div>
+  
+  
+  <div class="incon flex text-[#2f1c6a] mb-3  " >
+  
+    <div   class=" w-8   h-8"   >
+        <img  class="max-w-full  max-full  h-full"    src="/Tailwind/greentick.svg" id="tick">
+    </div>
+    <span>Access a vast knowledgebase of in-depth tutorials.</span> 
+  </div>  
+</div>
+
+ <div  class="right_container  w-full h-full px-2  pb-4    sm:w-[40%]" >   
+    <img src="/Tailwind/descr.png"></div>
+  
+
+  </div>
+  
+    <div class="lowercontainer w-full  flex flex-col  gap-y-10  sm:gap-x-10    text-[#2f1c6a] md:gap-x-12 md:flex-row   sm:px-2        ">
+  
+  
+      <div class="firstlower max-w-full w-full  px-6  py-8  sm:py-6 sm:h-56 md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60     h-16 py-2 md:h-10     "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+  
+      <div class="Secondlower max-w-full w-full  px-6  py-8 sm:py-2 sm:h-56  md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+  
+      <div class="thirdlower max-w-full w-full  px-6  py-8  sm:py-2 sm:h-56 md:w-[28%] flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+      </div>
+      </div>
+  
+
+<!-- here the owner content starts -->
+
+
+
+    <div class="ownercontent h-auto flex  flex-col   items-center justify-center  text-[#2f1c6a] lg:mb-20 max-w-full     ">
+       
+        <div  class=" ">
+        <h2 class="text-3xl font-extrabold mb-4">Join 2,002,312 Website Owners</h2>
+        </div>
+        
+        <div  class="max-w-full  h-12  w-64     " >
+          <button class="h-full max-w-full w-full  bg-[#673de6]  text-[#fff] rounded-lg font-bold  " >Get Started</button>
+        </div>
+<!--         
+        <div id="htext"   class="h-2 w-4   "  ><img 
+          src="Tailwind/greentick.svg" id="tick"
+          class=" max-full w-full"
+          >
+          <span  class=" font-bold"     >0-Day Money-Back Guarantee</span>
+        </div> -->
+        </div>
+      
+
+        
+    <!-- HERE THE CODE FOR THE SECURITY CONTAINER STARTS -->
+
+        <div class="security-container  w-full  flex flex-col  h-full  w-full  bg-[#673de6]  bg-[#673de6]    ">
+
+       <div class="w-full  flex flex-col  h-full  w-full flex-col py-16 sm:py-16  md:py-24 lg:py-28  sm:mx-4 md:mb-4  bg-[#673de6]     text-white-500 md:mx-[5%] lg:px-[10%]     "   >
+
+
+          <div class="firsttop max-w-full w-full h-auto flex flex-col sm:flex-row  sm:gap-x-14       ">
+
+            <div class="left_container max-w-full mb-4 pr-0 w-full    sm:w-[40%] sm:pr-16       ">
+          
+           <h1  class="font-bold  text-2xl  lg:text-4xl  text-[#ffffff]   text-start  mb-8 ">Advanced Security Features <br>You 24/7</h1>
+          
+          <div class="incon flex mb-3   ">
+            <div   class=" w-8 h-8  ">
+              <img  class=" max-w-full w-full h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick">
+            </div> 
+            <span class="  text-[#ffffff] ">Get unlimited SSL security certificates to encrypt your websites’ traffic.</span>
+          </div>
+          
+          
+          <div  class="incon flex text-[#ffffff]  mb-3  ">
+          <div class=" w-8   h-8">
+          <img  class=" max-w-full  max-full  h-full "   src="/Tailwind/greentick.svg" id="tick"> 
+          </div>
+          <span>Protect your website from DDoS attacks with Cloudflare protected nameserver.</span>
+          </div>
+          
+          
+          <div class="incon flex text-[#ffffff] mb-3  " >
+          
+            <div   class=" w-8   h-8"   >
+                <img  class="max-w-full  max-full  h-full"    src="/Tailwind/greentick.svg" id="tick"    style="fill: white;"   >
+            </div>
+            <span>Secure your files with automatic backups.</span> 
+          </div>  
+
+
+          <div class="incon flex mb-3   ">
+            <div   class=" w-8 h-8  ">
+              <img  class=" max-w-full w-full h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick" style="fill: white;"  >
+            </div> 
+            <span class="  text-[#ffffff] ">Ensure your website is online with our 99.9% uptime guarantee.</span>
+          </div>
+
+
+        </div>
+        
+         <div  class="right_container float-left w-full h-full px-2  pb-4    sm:w-[40%]" >   
+            <img src="/Tailwind/securitydiv.png"></div>
+          
+        
+          </div>
+          
+            <div class="lowercontainer w-full  flex flex-col  gap-y-10  sm:gap-x-10 text-[#ffffff] md:gap-x-12 md:flex-row bg-[#673de6]   sm:px-2   ">
+          
+          
+              <div class="firstlower max-w-full w-full bg-[#5025d1]  px-6  py-8  sm:py-6 sm:h-56 md:w-[28%]  flex flex-col  text-[#ffffff]  " >
+                <div  class="w-60     h-16 py-2 md:h-10     "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/pcmag.png"  id="bit"></div>
+                <div class="   mb-2">
+                <p>Hostinger proved itself a reliable web hosting service. In fact, our test site didn't go down once during the 14-day observation period.</p>
+                </div>
+              
+              </div>
+          
+          
+              <div class="Secondlower max-w-full w-full bg-[#5025d1]   px-6  py-8 sm:py-2 sm:h-56  md:w-[28%]  flex flex-col  text-[#ffffff]    " >
+                <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/cnet-light.png"  id="bit"></div>
+                <div class="   mb-2">
+                <p>Plans include SSL certificates and all servers have an advanced security module to protect your data.</p>
+                </div>
+              </div>
+          
+          
+              <div class="thirdlower max-w-full w-full  px-6 bg-[#5025d1]  py-8  sm:py-2 sm:h-56 md:w-[28%] flex flex-col  text-[#ffffff]  " >
+                <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/safegate.png"  id="bit"></div>
+                <div class="   mb-2">
+                <p>With DDoS protection, auto-updates, automatic website backups, and other security measures, you can rest assured that your website is secured.</p>
+                </div>
+              </div>
+              </div>        
+            </div>
+              
+          </div>
+            
+        
+<!-- here  the code for the Migration Container  -->
+
+<div class="migration-container  w-full  flex flex-col  h-full  w-full flex-col  py-16   sm:py-16  md:py-24 lg:py-28  sm:mx-4 md:mx-[5%]   md:mb-4   text-[#2f1c6a]  lg:px-[10%]   overflow-hidden  ">
+
+  <div class="firsttop max-w-full w-full h-auto flex flex-col sm:flex-row  sm:gap-x-24   lg:pb-4  ">
+
+    <div class="left_container max-w-full mb-4 pr-0 w-full    sm:w-[36%] sm:pr-16       ">
+  
+   <h1  class="font-bold  text-2xl  lg:text-4xl  text-[#2f1c6a] text-start  mb-8 ">Free Migration</h1>
+  
+  <div class="incon flex mb-3   ">
+    <div   class=" w-8 h-8  ">
+      <img  class=" max-w-full w-full h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick">
+    </div> 
+    <span class="text-[#2f1c6a]"   >Transfer your website using our free automatic website migration tool.</span>
+  </div>
+  
+  
+  <div  class="incon  flex text-[#2f1c6a]  mb-3  ">
+  <div class=" w-8   h-8">
+  <img  class=" max-w-full  max-full  h-full "   src="/Tailwind/greentick.svg" id="tick"> 
+  </div>
+  <span>Our agents will guide you in every step of the way.</span>
+  </div>
+  
+  
+  <div class="incon flex text-[#2f1c6a] mb-3  " >
+  
+    <div   class=" w-8   h-8"   >
+        <img  class="max-w-full  max-full  h-full"    src="/Tailwind/greentick.svg" id="tick">
+    </div>
+    <span>Your website will be transferred within 24 hours.</span> 
+  </div>
+  
+  
+  <div class="incon flex text-[#2f1c6a]  h-14  mb-3  ">
+    <div  class="w-8   h-8  "   >
+    <img  class="max-w-full  max-full  h-full"  src="/Tailwind/greentick.svg" id="tick">
+    </div>
+    <span>Launch websites quickly with our Website Builder.</span></div>
+    </div>
+    
+    <div  class="right_container  w-full h-full px-2  pb-4    sm:w-[45%]" >   
+    <img src="/Tailwind/descr.png"></div>
+    
+  </div>
+  
+    <div class="lowercontainer w-full  flex flex-col  gap-y-10  sm:gap-x-10    text-[#2f1c6a] md:gap-x-12 md:flex-row   sm:px-2        ">
+  
+  
+      <div class="firstlower max-w-full w-full  px-6  py-8  sm:py-6 sm:h-56 md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60     h-16 py-2 md:h-10     "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+  
+      <div class="Secondlower max-w-full w-full  px-6  py-8 sm:py-2 sm:h-56  md:w-[28%]  flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+  
+  
+      <div class="thirdlower max-w-full w-full  px-6  py-8  sm:py-2 sm:h-56 md:w-[28%] flex flex-col bg-[#fafbff] text-[#2f1c6a]    " >
+        <div  class="w-60 h-16  py-2  "  ><img class="max-h-full object-contain  h-full  "  src="/Tailwind/trustpilot-dark-2x.png"  id="bit"></div>
+        <div class="   mb-2">
+        <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+        </div>
+       <div class="w-[80%] h-10  py-2 "  >
+       <img class="max-h-full object-contain  h-full " src="/Tailwind/stars.png" href="starsimage">
+       </div>
+      </div>
+
+ </div>
+
+   </div>
+
+<!-- here the code for the foooter starts  -->
+
+
+<footer  id="footer" class="footers w-full h-auto p-[5%]   sm:h-auto  sm:px-8  lg:h-full grid grid-rows-auto grid-cols-1 sm:grid-cols-1  lg:grid-cols-4 lg:py-[8%]  bg-[#f4f5ff] lg:px-[10%]  lg:py-[10%] text-[#2f1c6a] " >
+  
+
+  <!-- Footer Left Section -->
+
+  <div class="about h-auto w-full sm:w-full sm:py-2 lg:py-4 bg-[#f4f5ff]     ">
+    <div class="footerlogo h-12 w-36  lg:my-4 ">
+    <img class="max-w-full w-full max-h-full object-contain  "  src="/Tailwind/logo.png">
+   </div> 
+     
+   <p class="about my-8 lg:my-12  " > We are a web hosting provider on a mission to bring success to everyone online.We constantly improve our server technology, provide professional support, and simplify site creation with our AI Website Builder</p>
+
+     <div class="paymentlogo  flex  ">
+      <div class="paymentcard  px-2 " ><img src="/Tailwind/visa.svg"> </div>
+      <div class="paymentcard  px-2" ><img src="/Tailwind/mastercard.svg" > </div> 
+      <div class="paymentcard  px-2 "><img src="/Tailwind/payment-easypasia.svg" ></div>
+      <div class="paymentcard   px-2 " ><img src="/Tailwind/payment-hbl.svg"> </div>
+      <div class="paymentcard  px-2" ><img src="/Tailwind/payment-jazzcash.svg" > </div>
+
+</div>
+   </div>
+
+<!-- Here the text section of the grid starts  ---->
+
+<div  class="footer_lower_part  w-full mt-2  sm:grid  sm:grid-rows-auto  sm:grid-cols-3  lg:grid   lg:col-span-3         ">
+
+
+
+  <div class="col-md-4B w-full h-16 sm:h-auto  sm:pt-6 lg:ml-12 footercontainer lg:col-span-1   ">
+   
+    <div class="firstitem   h-12 flex items-center justify-between  toggle-arrow   ">
+      <div class="font-black  g:font-bold  text-lg " >
+      <h4  id="footerheading" >Hosting</h4>
+      </div> 
+     <div class=" block sm:hidden  w-8 h-8  flex ">
+    <img id="toggleButton" class="h-full w-full max-w-full object-contain items-center content-center  toggleButton   " src="/Tailwind/arrow.svg" >  
+      </div>
+  </div>  
+
+    <div class="hostingitems hidden sm:block h-auto   " id="content">
+      <ul   class=" w-64    "  id="hostingMenu" >
+        <li class="my-2  "   ><a href="#">Hosting</a></li>
+        <li  class="my-2   "    ><a href="#">Professional Hosting</a></li>
+        <li class="my-2   "  ><a href="#">VPS Hosting</a></li>
+        <li class="my-2   "  ><a href="#">Minecraft Server</a></li>
+        <li class="my-2  "   ><a href="#">CyberPanel Hosting</a></li>
+        <li  class="my-2   "   ><a href="#">Cloud Hosting</a></li>
+        <li class="my-2   "    ><a href="#">WordPress Hosting</a></li>
+        <li class="my-2   "    ><a href="#">Email Hosting</a></li>
+        <li  class="my-2   "   ><a href="#">Google Workspace</a></li>
+        <li class="my-2   "       ><a href="#">CMS Hosting</a></li>
+        <li   class="my-2   "  ><a href="#">Ecommerce Hosting</a></li>
+        <li    class="my-2   "  ><a href="#">Free Website</a></li>
+    </ul>
+  </div>
+   </div>
+
+
+
+<!-- here is the code for the Domains region of the Footer Starts  -->
+
+  <div class="col-md-4B w-full h-16 sm:h-auto  sm:pt-6 lg:ml-12 footercontainer lg:col-span-1   " >
+
+ <div class="seconditem  flex items-center justify-between  toggle-arrow ">
+      <div   class=" font-black    lg:font-bold  text-lg       "      >
+      <h4   id="footerheading"   >Domains</h4>
+      </div> 
+     <div class="block sm:hidden  w-8 h-8   ">
+    <img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
+      </div>
+  </div>  
+
+    <div class="hostingitems hidden sm:block   " id="content">
+    <ul>
+        <li  class="my-2   "  ><a href="#">DomainSection</a></li>
+        <li   class="my-2   "   ><a href="#">Professional Hosting</a></li>
+        <li   class="my-2   "  ><a href="#">VPS Hosting</a></li>
+        <li    class="my-2   " ><a href="#">Minecraft Server </a></li>
+        <li  class="my-2   "  ><a href="#">CyberPanel Hosting</a></li>
+        <li    class="my-2   " ><a href="#">Cloud Hosting</a></li>
+        <li class="my-2   " ><a href="#">WordPress Hosting</a></li>
+        <li  class="my-2   " ><a href="#">Email Hosting</a></li>
+        <li  class="my-2   "  ><a href="#">Google Workspace</a></li>         
+        <li class="my-2   "  ><a href="#">CMS Hosting</a></li>
+        <li  class="my-2   "  ><a href="#">Ecommerce Hosting</a></li>
+        <li    class="my-2   " ><a href="#">Free Website Hosting</a></li>
+    </ul>
+   </div>
+  </div>
+
+
+
+<!-- Here  the code for the tools section starts -->
+
+   <div class="col-md-5b  w-full h-16   sm:h-auto sm:pt-6   lg:ml-12 footercontainer  lg:col-span-1   ">
+
+    <div class="seconditem  flex items-center justify-between toggle-arrow ">
+      <div class="  font-black lg:font-bold  text-lg  my-2    "      >
+      <span id="footerheading">Tools</span>
+      </div> 
+     <div class="block sm:hidden  w-8 h-8    ">
+    <img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
+      </div>
+  </div>  
+
+
+
+    <div class="hostingitems hidden sm:block   " id="content">
+    <ul>
+      <li class="my-2 "  ><a href="#">Online Store</a></li>
+      <li  class="my-2 "         ><a href="#">Website Builder</a></li>
+      <li  class="my-2 "  >  <a href="#">Ai Website Builder</a></li>
+      <li  class="my-2 "      ><a href="#">Logo Maker</a></li>
+      <li  class="my-2 "  ><a href="#">Ecommerce Hosting</a></li>
+      <li  class="my-2 "  ><a href="#">Free Website Hosting</a></li> 
+
+    </ul>
+   </div>
+  </div>
+
+
+<!--Here the code for the information section of the footer starts -->
+  
+<div class="col-md-6a  col-span w-full h-16 sm:h-auto sm:pt-4  lg:ml-12 footercontainer      ">
+
+  <div class="seconditem  flex items-center justify-between  toggle-arrow ">
+  <div class=" font-black  lg:font-bold  text-lg     "      >
+  <h4 id="footerheading" >Information</h4>
+  </div> 
+ <div class="block sm:hidden  w-8 h-8    ">
+<img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
+  </div>
+</div>  
+
+<div class="hostingitems hidden sm:block   " id="content">
+
+  <ul>
+    <li class="my-2 " ><a href="#">Migrate to hostinger</a></li>
+    <li  class="my-2 "  ><a href="#">System Status</a></li>
+     <li class="my-2 "  ><a href="#">Affliate Program</a></li> 
+     <li  class="my-2 " ><a href="#">Payment Methods</a></li>
+     <li  class="my-2 "  ><a href="#">Wall of Frame</a></li> 
+     <li  class="my-2 " ><a href="#">Reviews</a></li>
+     <li class="my-2 "><a href="#">Pricing</a></li> 
+     <li class="my-2 " ><a href="#">Sitemap</a></li> 
+</ul>
+</div>
+</div>
+
+
+<!-- Here the Code for the Vision Section of the footer Starts -->
+
+ <div class="col-md-7b  col-span   w-full h-16 sm:h-auto sm:pt-4 lg:ml-12 footercontainer         ">
+
+  <div class="seconditem h-12 w-full flex items-center justify-between toggle-arrow ">
+    <div class=" font-black     lg:font-bold  text-lg     "      >
+    <h4 id="footerheading">Company</h4>
+    </div>  
+   <div class="block sm:hidden  w-8 h-8   ">
+  <img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
+    </div>
+  </div>  
+  
+  <div class="hostingitems hidden sm:block   " id="content">
+  
+    <ul>
+      <li class="my-2 "    ><a href="#">About Hostinger</a></li>
+      <li class="my-2 "  ><a href="#">Website Builder</a></li>
+      <li class="my-2 "   ><a href="#">Ai Website Builder</a></li>
+      <li class="my-2 "  ><a href="#">Logo Maker</a></li>
+      <li class="my-2 "    ><a href="#">Ecommerce Hosting</a></li>
+      <li class="my-2 "     ><a href="#">Free Website Hosting</a></li>
+  </ul>
+  </div>
+  </div>
+  
+  <!-- here the code fo the help section starts  -->
+  <div class="col-md-8 col-span w-full h-16  lg:ml-12 footercontainer ">
+
+  <div class="seconditem  flex items-center justify-between  toggle-arrow ">
+    <div class="font-black  lg:font-bold  lg:text-lg      " >
+    <h4 id="footerheading">Help</h4>
+    </div> 
+   <div class="block sm:hidden  w-8 h-8   ">
+  <img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
+    </div>
+  </div>  
+  
+  <div class="hostingitems hidden sm:block   " id="content">
+  
+    <ul>
+      <li class="my-2 "   ><a href="#">About Hostinger</a></li>
+      <li  class="my-2 "   ><a href="#">Website Builder</a></li>
+      <li  class="my-2 "    ><a href="#">Ai Website Builder</a></li>
+      <li class="my-2 "    ><a href="#">Logo Maker</a></li>
+      <li  class="my-2 "    ><a href="#">Ecommerce Hosting</a></li>
+      <li   class="my-2 "  ><a href="#">Free Website Hosting</a></li>
+
+  </ul>
+  </div>
+  </div>
+  
+
+  <div  class="rights-info col-span w-full h-16 pt-2 lg:ml-12     " >
+    <p>&copy; 2024 Hostinger International Ltd. All rights reserved.</p>
+
+  </div>
+  
+</div>
+
+
+
+
+</footer>
+
+</div> -->
+
+
+
+
+
+
+<!-- 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ Bootstrap JS 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+
+<script src="script.js"></script>
+</body>
+</html> 
+
+
+<!-- 
+
+
+<script>  
+$(document).ready(function(){
+  // $('#services').slick({
+  // slidesToShow:3,
+  // infinite: true,
+  // slidesToScroll: 1,
+  // dots: true
+
+  // });
+  $('#services').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+		
+});
+</script>
+		 -->
+
+
+

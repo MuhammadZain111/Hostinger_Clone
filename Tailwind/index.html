@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hostinger</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+
+    
+
+<!-- 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ -->
+
+
+    <link  rel="stylesheet" href="style.css"     >
+
+    <link rel="stylesheet"  href="responsivefortab.css"  >
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="hostinger.svg" type="image/png">
+    
+</head>
+<body>
+
+  <!-- here  the code for the navbar and header starts  -->
+
+ <header class="header">
+
+  <nav class="navbar navbar-expand-lg   custom-navbar">
+      
+      <img src="logo.png" width="120" height="40" class="d-inline-block align-top" alt="Logo" class="ml-2"  >
+        
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+     <ul class="navbar-nav ml-auto p-3"> 
+            
+        <li class="nav-item dropdown"> 
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WordPress
+        <span class="caret"></span>
+         </a>
+            
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div>
+              <a class="dropdown-item" href="#">Managed WordPress</a>
+            </div>
+            <div class="dropdown-divider"></div>  
+             <div>
+              <a class="dropdown-item" href="#">Managed WooCommerce </a>
+             </div>
+             
+            <!-- <div class="dropdown-divider"></div>           -->
+          </div>
+
+           <li class="nav-item pl-3">
+              <a class="nav-link" href="#">Website Builder</a>
+            </li>
+            
+          
+            <li class="nav-item dropdown pl-3"> 
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHosting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Hosting 
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownHosting">
+               <div>
+                <!-- <img  src="HSOTINGLOG.svg" alt="webimg"> -->
+                <a class="dropdown-item" href="#">Web Hosting</a>
+               </div>           
+               <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#">Cloud Hosting</a>
+                 <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">VPS Hosting</a>
+                   <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Hostinger Email Hosting</a>
+              </div>
+          </li>
+          
+          
+
+            <li class="nav-item pl-3">
+              <a class="nav-link " href="#">Disabled</a>
+            </li>
+
+            <li class="nav-item pl-3">
+              <a class="nav-link " href="#">Pro</a>
+            </li>
+
+            <li class="nav-item pl-3">
+              <a class="nav-link " href="#">Domains</a>
+            </li>
+
+<!--     
+         <li class="nav-item pl-4  border  login_button ml-0 "  id="login-button"    >
+        </li> -->
+
+          <button type="button" class="btn btn-outline-dark" id="loginbutton" >Login</button>  
+          
+
+          </ul>
+
+        </div>
+      </nav>
+      
+ </header>   
+
+<!-- here is the code for the Hero section -->
+
+<div class="container-fluid  dflex  flex-lg-row  flex-sm-column  ps mt-lg-0 mt-sm-5 fs main-container           ">
+  
+   <div class="row  ">
+
+    <div class="col-md-4 d-flex flex-column justify-content-md-start
+    justify-content-sm-start align-items-md-start align-items-sm-center p-lg-2 left_container col-sm-12  mt-sm-5 ">
+
+    
+     <div id="heading"><h1 class="custom-align  text-md-start    mt-md-1">Everything You Need to Create a Website</h1>
+
+    <div class="font-weight-bold"  id="sale">Upto<span id="percent"> 78%</span>  off hosting + Website Builder </div>
+          </div>
+          
+          <div class="subcontainer p-3 d-flex flex-column justify-content-start">
+         
+            <div>
+         <img src="greentick.svg" id="tick" >
+          <span> Free Domain</span>
+          <img  src="question.svg" id="questionone">
+          </div>
+      
+          <div>
+           <img src="greentick.svg" id="tick" class="img-fluid">
+          <span> Free Website Migration</span>
+         </div>
+      
+           <div>
+            <img src="greentick.svg" id="tick">
+           <span> 24/7 Customer Support</span>
+          </div>
+          </div>
+        
+      
+          <div class="price-info">
+            <div><span>Rs</span><span id="price">559</span><span>/mo</span></div>
+          <span id="months"> +3 Months Free</span>
+          </div>
+         
+          
+          <button id="claim-btn">Claim Deal</button>
+
+          <!-- <button id="timebutton">02:16:44:05</button>  -->
+           <div class="gaurantee-container">
+            <img src="gaurantee.svg" id="tick">
+            <span>30-Days Money-Back Gaurantee</span>
+           </div>
+          
+           </div>
+        <!-- </div> -->
+
+
+    <div class="col-md-8 col-sm-12  mt-sm-5  container right_container">     
+     <img   src="frontpageimg.png" id="firstimage"  class="img-fluid"   >
+   </div>
+  </div>
+
+ </div>
+
+<!-- here is the code for the second container -->
+
+<div class="slide smallscreen-slider   ">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="col-md-4">
+  
+          <div class="box" id="box1">
+        
+  
+            <h2 class="secondarycenter  text-center font-weight-bold">Premium</h2>
+            <p id="intro">Everything you need to create your website</p>
+           
+            <div class="details d-flex flex-column  align-items-center justify-content-between " id="firstdetails">
+              
+              <div class="save p-1  ">
+                <span id="linetxt"   >Rs2,499</span><span class="save-text" id="save"> save 78%</span>
+              </div>
+              
+              <div class="price-section d-flex flex-row justify-content-center  align-items-center justify-content-center text-center font-weight-bolder fs-1  fw-bolder pb-2" id="price1">
+                <div><span>Rs</span></div>
+                <div><span class="font-weight-bolder "id="pricetag">559</span></div>
+                <div><span >/mo</span></div> 
+              </div>
+  
+              <span id="desc" class="font-weight-bolder ">+3 months FREE</span>
+             
+              <button type="button" class="btn btn-primary mt-md-4 mt-sm-3     " id="cart-btn1">Add to Cart</button>
+              
+              <span class="lower_txt mt-1 mb-4 text-center ">Rs.1,099/mo when you renew</span>
+            </div>
+  
+            
+            
+  
+            <div id="line"></div>
+            <span id="features  ">Top Features</span>
+           
+            <div class="pricing">
+       
+          
+
+
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">100 </span><span id="text"> Websites</span><span  ><img id="question"src="question.svg"></span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">1000Gb </span><span id="text"> SSD Storage</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Weekly </span><span id="text"> backups</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+     
+           <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+             
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+     
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+             
+              </div>
+     
+              <br></br>
+              <h6 id="no-code">No code Website Builder </h6> 
+              
+     
+           <div class="pricing">
+            <p><img src="greentick.svg" id="tick"><span class="bold" id="bold">Increased </span><span id="text">Performance</span></p>   
+            <p><img src="greentick.svg" id="tick"><span class="bold" id="bold">100 </span><span>Websites</span></p>
+            <p><img src="greentick.svg" id="tick"><span class="bold" id="bold">1000Gb </span><span>    </span>SSD Nvme Storage</p>
+            <p><img src="greentick.svg" id="tick"><span class="bold" id="bold">Daily </span>backups</p>
+            
+              </div>
+     
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="col-md-4">
+          <div class="box mt-4" id="box2">
+      
+  
+            <div class="popular" id="popular"><p>Most Popular</p></div>
+            <h2 class="secondarycenter text-center font-weight-bold">Business</h2> 
+            <p id="intro">Level-up with more power and enhanced features</p>  
+            
+            <div class="details d-flex flex-column  align-items-center justify-content-between">
+              
+              <div class="save">
+                <span id="linetxt"  > Rs2,499 </span><span class="save-text" id="save"    > save 78%</span>
+              </div>
+                 
+              <div class="price-section d-flex flex-row justify-content-center  align-items-center justify-content-center   text-center font-weight-bolder fs-1  fw-bolder pb-1" id="price1">
+                <div><span>Rs</span></div>
+                <div><span id="pricetag">999</span></div>
+                <div><span >/mo</span></div> 
+              </div>
+               
+  
+              <span id="desc2">+3 months FREE</span>
+              <button type="button" class="btn btn-primary mt-md-4   " id="cart-btn2">Add to Cart</button>
+              <span class="lower_txt">Rs.1,099/mo when you renew</span>
+            </div>
+            <div id="line"></div>
+            <span id="features">Top Features</span> 
+            <div class="pricing">
+  
+           </div>
+    
+  
+         <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+  
+         <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+  
+         <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+  
+         <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+  
+         <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+  
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+          
+          <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+  
+          <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+      
+  
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+  
+     <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+  
+     <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+  
+     <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+  
+     <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+  
+     <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+  
+    <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+      
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+  
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+    
+      
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+  
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+        
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+    
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+      
+            
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+  
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+          
+          <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+      
+          <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+       
+  
+  
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="col-md-4">
+          <div class="box" id="box3">
+        
+            <h2 class="secondarycenter text-center font-weight-bold">Cloud Startup</h2>
+            <p id="intro">Enjoy optimized performance & powerful resources</p>
+           
+            <div class="details d-flex flex-column  align-items-center justify-content-between" id="firstdetails">
+              <div class="save">
+                <span id="linetxt"   >Rs2,499</span><span class="save-text" id="save"  > save 78%</span>
+              </div>
+              
+              <div class="price-section d-flex flex-row justify-content-center  align-items-center justify-content-center   text-center font-weight-bolder fs-1  fw-bolder pb-3" id="price1">
+  
+                <div><span>Rs</span></div>
+                <div><span id="pricetag" class="text-center font-weight-bold d-flex  justify-content-center  " >2,499</span></div>
+                <div><span >/mo</span></div> 
+              </div>
+  
+              <span id="desc">+3 months FREE</span>
+             
+              <button type="button" class="btn btn-primary  mt-md-4 " id="cart-btn1">Add to Cart</button>
+  
+              <span class="lower_txt">Rs.1,099/mo when you renew</span>
+              
+            </div>
+  
+            
+          
+            <div id="line"></div>
+            <span class="features" id="features">Top Features</span>
+            
+            <div class="pricing">
+          
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+  
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+        
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+        
+               <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+        
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+        
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+        
+              <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+                
+                <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+        
+                <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+              
+            </div>
+            <br>
+  
+            <h6 class="no-code">No code Website Builder</h6>
+            <div class="pricing">
+               
+              <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+        
+              <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+       
+              <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+       
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+               
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+       
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+             
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+               
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+       
+               <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+            
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+here the code for  the price section beginss -->
+
+
+
+
+
+
+<div  class="slider">
+
+   
+      <div class="servicescontainer">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4">
+
+        <div class="box" id="box1">
+      
+
+          <h2 class="secondarycenter  text-center font-weight-bold">Premium</h2>
+          <p id="intro">Everything you need to create your website</p>
+         
+          <div class="details d-flex flex-column  align-items-center justify-content-between " id="firstdetails">
+            
+            <div class="save p-1  ">
+              <span id="linetxt"   >Rs2,499</span><span class="save-text" id="save"> save 78%</span>
+            </div>
+            
+            <div class="price-section d-flex flex-row justify-content-center  align-items-center justify-content-center   text-center font-weight-bolder fs-1  fw-bolder pb-2" id="price1">
+              <div><span>Rs</span></div>
+              <div><span class="font-weight-bolder "id="pricetag">559</span></div>
+              <div><span >/mo</span></div> 
+            </div>
+
+            <span id="desc ">+3 months FREE</span>
+           
+            <button type="button" class="btn btn-primary mt-md-4 mt-sm-3     " id="cart-btn1">Add to Cart</button>
+            
+            <span class="lower_txt mt-1 mb-4 text-center ">Rs.1,099/mo when you renew</span>
+          </div>
+
+          
+          
+
+          <div id="line"></div>
+          <span id="features">Top Features</span>
+         
+          <div class="pricing">
+     
+        <div>
+        <p><img src="greentick.svg" id="tick"><span class="bold">Standard</span><span id="text">Websites</span></p>
+      </div>      
+      
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">100 </span><span id="text"> Websites</span><span  ><img id="question"src="question.svg"></span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">1000Gb </span><span id="text"> SSD Storage</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Weekly </span><span id="text"> backups</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+        
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+        
+          
+            <!-- here we will Add more features using Bootstrap classes -->
+          </div>
+
+          <br>
+          <h6 class="no-code">No code Website Builder</h6> 
+
+          <div class="pricing">
+
+          </div>
+          <div class="morefeatures" id="morefeatures">See less features</div>
+          <span><img src=""></span>
+
+          <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+
+      
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box" id="box2">
+    
+
+          <div class="popular" id="popular"><p>Most Popular</p></div>
+          <h2 class="secondarycenter text-center font-weight-bold">Business</h2> 
+          <p id="intro">Level-up with more power and enhanced features</p>  
+          
+          <div class="details d-flex flex-column  align-items-center justify-content-between">
+            
+            <div class="save">
+              <span id="linetxt"  > Rs2,499 </span><span class="save-text" id="save"    > save 78%</span>
+            </div>
+               
+            <div class="price-section d-flex flex-row justify-content-center  align-items-center justify-content-center   text-center font-weight-bolder fs-1  fw-bolder pb-2" id="price1">
+              <div><span>Rs</span></div>
+              <div><span id="pricetag">999</span></div>
+              <div><span >/mo</span></div> 
+            </div>
+             
+
+            <span id="desc2">+3 months FREE</span>
+            <button type="button" class="btn btn-primary mt-md-4   " id="cart-btn2">Add to Cart</button>
+            <span class="lower_txt">Rs.1,099/mo when you renew</span>
+          </div>
+          <div id="line"></div>
+          <span id="features"  class="mb-md-4">Top Features</span> 
+          <div class="pricing">
+
+         </div>
+  
+          <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+
+       <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+        
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+    
+
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+
+   <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+
+   <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+
+   <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+
+   <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+
+   <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+
+  <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+    
+    <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+
+    <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+  
+    
+    <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+
+    <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+      
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+  
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+    
+          
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+
+      <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+        
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+    
+        <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+     
+
+
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4">
+        <div class="box" id="box3">
+      
+          <h2 class="secondarycenter text-center font-weight-bold">Cloud Startup</h2>
+          <p id="intro">Enjoy optimized performance & powerful resources</p>
+         
+          <div class="details d-flex flex-column  align-items-center justify-content-between" id="firstdetails">
+            <div class="save">
+              <span id="linetxt"   >Rs2,499</span><span class="save-text" id="save"  > save 78%</span>
+            </div>
+            
+            <div class="price-section d-flex flex-row justify-content-center  align-items-center justify-content-center   text-center font-weight-bolder fs-1  fw-bolder pb-3 " id="price1">
+
+              <div><span>Rs</span></div>
+              <div><span id="pricetag" class="text-center font-weight-bold d-flex  justify-content-center  " >2,499</span></div>
+              <div><span >/mo</span></div> 
+            </div>
+
+            <span id="desc">+3 months FREE</span>
+           
+            <button type="button" class="btn btn-primary  mt-md-4 " id="cart-btn1">Add to Cart</button>
+
+            <span class="lower_txt">Rs.1,099/mo when you renew</span>
+            
+          </div>
+
+          
+        
+          <div id="line"></div>
+          <span class="features" id="features">Top Features</span>
+          
+          <div class="pricing">
+        
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> SSL</span></div>
+
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Unlimited </span><span id="text">bandwidth</span></div>
+      
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Free </span><span id="text"> Websites</span></div>
+      
+             <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+      
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+      
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+      
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+              
+              <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+      
+              <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+            
+          </div>
+          <br>
+
+          <h6 class="no-code">No code Website Builder</h6>
+          <div class="pricing">
+             
+            <div><img src="greentick.svg" id="tick"><span class="bold"divid="bold">Free </span><span id="text">Cdn</span></div>
+      
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold">Dedicated </span><span id="text">Ip Address</span></div>
+     
+            <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text">Cdn</span></div>
+     
+           <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+             
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+     
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+           
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text">Ip Address</span></div>
+             
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Free </span><span id="text"> Cdn</span></div>
+     
+             <div><img src="greentick.svg" id="tick"><span class="bold" id="bold"> Dedicated </span><span id="text"> Ip Address</span></div>
+          
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+      
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- here code for the datacontainer starts -->
+
+
+
+
+
+<div class="container-fluid flex-column  mt-md-3    mt-sm-5    ps datacontainer">
+
+  <div  class="datatxt p-2 text-center fs-1 text-lg">
+
+   <h2  class="fs-1 text-lg  data-heading    ">Data Centers All Around the World</h2> 
+
+   <p   class="p-2 fs-1 text-lg text-center ">
+    Our web hosting, WordPress hosting, and cloud hosting plans offer server locations in: USA, United Kingdom, France, India, Singapore, Brazil, Lithuania,<br> and the Netherlands.</p>   
+  </div>
+
+  <div class="dataimg pl-5 pr-5       "> <img src="Map.png"> </div>
+ 
+ </div>
+
+
+
+
+<div class="container  col-md-12 col-sm-12 d-flex  flex-column m-md-5   m-sm-1 pl-sm-5 websol-container ps wm ">
+
+<div class="row">
+  <div class="col-md-5 d-flex flex-column col-sm-12  p-md-5 p-sm-3 left_container">
+    <h1 class="     pb-md-5 pb-sm-2  websolheading  font-weight-bolder ">All-in-one Website Solution</h1>
+   
+   <div class="p-2     incon img-fluid">
+     <img src="greentick.svg" id="tick">
+     <span>Manage up to 100 websites.</span>
+   </div>
+   
+   <div  class="p-2    incon">
+   <img src="greentick.svg" id="tick">  
+   <span>Register a domain name for free</span></div>
+   
+   <div class="p-2    incon" >
+     <img src="greentick.svg" id="tick">
+     <span>Set up a professional business email address.</span> </div>
+   
+   <div class="p-2   incon" >
+     <img src="greentick.svg" id="tick">
+     <span>Optimize your workflow with managed WordPress hosting</span></div>
+   
+   <div class="p-2      incon">
+     <img src="greentick.svg" id="tick">
+     <span>Launch websites quickly with our Website Builder.</span></div>
+    </div>
+     
+     <div  class="col-md-6 col-sm-12 container right_container        "><img src="descr.png"></div>
+     
+</div>
+ 
+<div class="container-fluid pl-md-5  pl-sm-3   d-flex            lowercontainer">
+
+<div class="row">
+
+  <div class="col-md-4  col-sm-8   p-md-5  p-sm-3      mt-3 mr-2  firstlower" >
+    <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+    <div class="p-2"  >
+      <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+    </div>  
+    <div>
+      <img id="stars" src="stars.png" href="starsimage">
+    </div>
+  
+  </div>
+  
+  <div class="col-md-3  col-sm-8   p-md-5  p-sm-3   mt-md-3  mt-sm-2  mr-md-2  mb-md-2  md-sm-5    secondlower">
+    <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+  <div class="p-2">
+  <p>Easy to use platform. Very good and fast support. Highly recommended.</p>
+  <img id="stars" src="stars.png" href="starsimage">
+  </div>
+  </div>
+  
+  <div class="col-md-4   col-ms-8  p-md-5  p-sm-3   mt-md-3  mt-sm-2  mt-md-3  mt-sm-2     thirdlower">
+    <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+    <div class="p-3" >
+    <p>Even though I am a newbie in this world it has been very easy for me to understand and manage my site.</p>
+    <img id="stars" src="stars.png" href="starsimage">
+    </div>
+ 
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+<div class="contianer-fluid d-flex  flex-column  pl-md-5 ps webspeed-container">
+
+<div class="row">
+
+  <div class="col-md-6 p-5     right_section">
+
+ <h1  class="font-weight-bolder  mb-3 "    >Maximize Website Speed</h1>
+
+<div class="p-2"     id="sidetxt"><img src="greentick.svg" id="tick">  
+<span id="sidetxt">Maximize performance with LiteSpeed Web Server technology.</span></div>
+
+<div  class="p-2"      id="sidetxt">
+  <img src="greentick.svg" id="tick">
+  <span id="sidetxt" >Enjoy optimized performance with advanced cache solutions</span> </div>
+
+<div  class="p-2  "       id="sidetxt">
+  <img src="greentick.svg" id="tick">
+  <span id=sidetxt>Host your website in any of our server locations: USA,   United Kingdom, Brazil, Singapore, Lithuania, India, and the Netherlands.</span></div>
+
+<div class="p-2"       id="sidetxt">
+  <img src="greentick.svg" id="tick">
+  <span  id="sidetxt">Launch websites quickly with our Website Builder.</span></div>
+
+  
+</div>
+
+<div  class="container  col-md-6 col-sm-12 pl-md-5 pr-md-5  mt-md-1 mt-sm-5     left_section   "><img src="graph.png" >
+</div>
+
+</div>
+
+<div class="container col-md-12 col-sm-12  ml-md-4  mr-md-2    mr-md-4  p-sm-1 mt-md-2   mt-sm-5   d-flex  descriptionsec">
+
+<div class="row">
+
+<div class="col-md-4 pl-5 pr-5    firstsub" >
+<div class="pl-4" ><img src="bitcatcha-dark-2x.png" id="bit" ></div>
+  <div class="p-3  "   >
+     <p class="fs-5 lh-3  "    id="smalltxt">Speed test results of our Hostinger US test site came back with a worldwide average of a blazing fast 143 ms, which ranks them as one of our A+ top tier hosts!</p>
+     </div>
+   </div>
+     
+     <div class="col-md-4      secondsub">
+     <div  class="pl-5"   ><img src="wpbeginner-dark-2x.png" id="bit" ></div>
+     <div class="p-3"     >
+     <p class="fs-5  lh-3  pl-5 pr-5    "         id="smalltxt">If you have a small business website, an online store, or a growing blog, your website can easily handle sudden traffic spikes.</p>
+     </div>
+     </div>
+     
+     <div class="col-md-4    thirdsub">
+     <div class="pl-5"><img src="website-planet-dark-2x.png" id="bit" ></div> 
+       <div class="p-3"     >
+       <p  class="pl-5  pr-5 "         id="smalltxt">He average loading time of my fully-fledged landing page was a phenomenal 1.56s, and uptime over a few months of testing was upwards of 99.99%, exactly as promised.</p>
+       </div>
+   
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="container  col-md-12  col-sm-12 d-flex  flex-column  pl-5 ps webteam-container  ">
+
+<div class="row">
+
+  <div class="col-md-6     primary-section">
+    <h2  class="font-weight-bolder  mb-md-3  teamheading"     >Our Team is Here to Help <br>You 24/7</h2>
+    
+   <div class="p-2      "      >
+     <img src="greentick.svg" id="tick">
+     <span>Manage up to 100 websites.</span>
+   </div>
+   
+   <div  class="p-2   incon">
+   <img src="greentick.svg" id="tick">  
+   <span id=" ">Receive help from our agents anytime via live chat Support</span></div>
+   
+   <div class="p-2   incon">
+     <img src="greentick.svg" id="tick">  
+     <span>Follow step-by-step video walkthroughs and guides.</span> </div>
+   
+   
+   <div class="p-2  incon">
+     <img src="greentick.svg" id="tick">
+     <span>Access a vast knowledgebase of in-depth tutorials</span></div>
+   
+   </div>
+   
+   <div class="col-md-6          secondary_section response"><img src="team-container.png" ></div>
+   
+</div>
+
+
+<div class="container col-md-12 col-sm-12        lowercontainer">
+
+<div class="row">
+
+
+  <div class="col-md-4  p-5 mr-1   firstlower">
+    <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+   <div class="p-2"    >
+   <p      >Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+    <img id="stars" src="stars.png" href="starsimage">
+   </div>
+    </div>
+  
+  <div class="col-md-4    p-5      secondlower">
+    <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+  <div  class="p-2"     >
+  <p>Easy to use platform. Very good and fast support. Highly recommended.</p>
+  <img id="stars" src="stars.png" href="starsimage">
+  </div>
+  </div>
+  
+  <div class="col-md-4  p-5            thirdlower">
+    <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+    <div class="p-2  ">
+    <p>Even though I am a newbie in this world it has been very easy for me to understand and manage my site.</p>
+    <img id="stars" src="stars.png" href="starsimage">
+    </div>
+    </div>
+ 
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="container-fluid d-flex  flex-column align-items-center  justify-content-center pl-5 ls  ownercontent  ">
+
+  
+    <div class="  p-4    "  ><h2  class="font-weight-bolder"  >Join 2,002,312 Website Owners</h2></div>
+    <div  id="startbuttondiv" >
+      <button id="startbutton" >Get Started</button>
+    </div>
+    
+    <div id="htext"><img src="greentick.svg" id="tick">
+      <span>0-Day Money-Back Guarantee</span>
+    </div>
+  
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="container col-md-12 col-sm-12   p-5    security-container">
+
+  <div class="row">
+
+    <div class="col-md-7 p-5 image-container"><img class="sec-im" src="securitydiv.png"></div>
+
+    <div class="col-md-4  pr-md-5 mt-md-5  mr-5   text-container">
+ 
+    <h2 class=" pb-4  font-weight-bolder fs-2" >Advanced Security Features</h2>
+
+    <div class="p-2  "  id="security"> 
+    <p>Get unlimited SSL security certificates to encrypt your websites’ traffic.</p></div>
+    
+    <div  class="p-2 " id="security">
+    
+    <p>Protect your website from DDoS attacks with Cloudflare protected nameserver</p>
+    </div>
+    
+    <div   class="  "   id="security">
+    <p>Secure your files with automatic backups.</p></div> 
+    
+    <div  id="security">
+    <p>Ensure your website is online with our 99.9% uptime guarantee</p></div>
+    
+    </div>
+    
+  </div>
+
+  <div class="container col-md-12   col-sm-12  sb ps bottom-container">
+
+    <div class="row ">
+    
+  <div class=" container col-md-3 pr-3 p-md-4  mr-md-2  p-sm-4 mr-sm-0   btm">
+    <div class="pt-2 pb-1  pc"  id="pc"><img src="pcmag.png"  id="bit"></div>
+    <div>
+      <p class="fs-5  " id="ptext">Hostinger proved itself a reliable web hosting service. In fact, our test site didn't go down once during the 14-day observation period. In fact, our test site didn't go down once during the 14-day observation period.</p>
+    
+    </div>
+     </div>
+   
+    <div class="container    col-md-3 p-4 pr-3 mr-sm-5  btm">
+      <div class="pt-2 pb-1  pc"  id="pc"><img src="cnet2.png"  id="bit"></div>
+      <div>
+      <p  class="" id="ptext">Plans include SSL certificates and all servers have an advanced security module to protect your data.In fact, our test site didn't go down once during the 14-day observation period.</p>
+      </div>
+      </div>
+      
+      <div class="container col-md-3 p-4 pr-3 mr-sm-5  btm">
+      <div class="pt-2 pb-1 pc"id="pc"><img src="safegate.png"  id="bit"></div>
+      <div id="ptext">
+      <p>With DDoS protection, auto-updates, automatic website backups, and other security measures, you can rest assured that your website is secured.
+        In fact, our test site didn't go down once during the 14-day observation period.
+      </p>
+      </div>
+      </div>
+     
+
+    </div>
+    
+    
+    </div>
+
+</div>
+    
+
+
+<div class="container-fluid  ms  migration-container ">
+
+<div class="row">
+
+  <div class="col-md-6 pl-5  left_container ">
+    <h1  class=" pl-4  font-weight-bolder"  >Free Migration</h1>
+   
+   <div class=" p-3   incon" >
+     <img src="greentick.svg" id="tick">
+     <span  >Transfer your website using our free automatic website<br>migration tool.</span> </div>
+   
+   <div class="p-3  incon" >
+     <img src="greentick.svg" id="tick">
+     <span>Our agents will guide you in every step of the way.</span></div>
+   
+   <div class="p-3   incon">
+     <img src="greentick.svg" id="tick">
+     <span>Your website will be transferred within 24 hours.</span></div>
+  
+     </div>
+     
+     <div  class="col-md-6     right_container"><img src="descr.png"></div>        
+</div>
+
+
+<div class="lowercontainer">
+
+  <div class="row">
+
+    <div class="col-md-4   firstlower" >
+      <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+      <p>Easy to use, intuitive and fluid interface, support always willing to assist in problems that may appear</p>
+      <img id="stars" src="stars.png" href="starsimage">
+      </div>
+      
+      <div class="col-md-4   secondlower">
+        <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+      <div>
+      <p>Easy to use platform. Very good and fast support. Highly recommended.</p>
+      <img id="stars" src="stars.png" href="starsimage">
+      </div>
+      </div>
+      
+      <div class="col-md-4    thirdlower">
+        <div id="pc"><img src="trustpilot-dark-2x.png"  id="bit"></div>
+        <div>
+        <p>Even though I am a newbie in this world it has been very easy for me to understand and manage my site.</p>
+        <img id="stars" src="stars.png" href="starsimage">
+        </div>
+        </div>
+    
+    
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footers">
+
+  
+  <div class="about">
+
+    <div id="footerlogo" ><img src="logo.png"></div> 
+     <p id="about" > We are a web hosting provider on a mission to bring success to everyone online.We constantly improve our server technology, provide professional support, and simplify site creation with our AI Website Builder</p>
+
+     <div class="paymentlogo">
+    
+      <div class="paymentcard" ><img src="visa.svg"> </div>
+      <div class="paymentcard" ><img src="mastercard.svg" > </div> 
+      <div class="paymentcard"><img src="payment-easypasia.svg" ></div>
+      <div class="paymentcard" ><img src="payment-hbl.svg"> </div>
+      <div class="paymentcard" ><img src="payment-jazzcash.svg" > </div>
+
+</div>
+   </div>
+
+
+  <div class="footersub1">
+    <h4>Hosting</h4>
+    <ul>
+        <li><a href="#">Hosting</a></li>
+        <li><a href="#">Professional Hosting</a></li>
+        <li><a href="#">VPS Hosting</a></li>
+        <li><a href="#">Minecraft Server</a></li>
+        <li><a href="#">CyberPanel Hosting</a></li>
+
+        <li><a href="#">Cloud Hosting</a></li>
+        <li><a href="#">WordPress Hosting</a></li>
+        <li><a href="#">Email Hosting</a></li>
+        <li><a href="#">Google Workspace</a></li>
+          
+        <li><a href="#">CMS Hosting</a></li>
+
+        <li><a href="#">Ecommerce Hosting</a></li>
+
+        <li><a href="#">Free Website</a></li>
+
+
+
+    </ul>
+   </div>
+
+
+   <div class="footersub2">
+    <h4>Domains</h4>
+    <ul>
+        <li><a href="#">Hosting</a></li>
+        <li><a href="#">Professional Hosting</a></li>
+        <li><a href="#">VPS Hosting</a></li>
+        <li><a href="#">Minecraft Server </a></li>
+        <li><a href="#">CyberPanel Hosting</a></li>
+
+        <li><a href="#">Cloud Hosting</a></li>
+        <li><a href="#">WordPress Hosting</a></li>
+        <li><a href="#">Email Hosting</a></li>
+        <li><a href="#">Google Workspace</a></li>
+          
+        <li><a href="#">CMS Hosting</a></li>
+
+        <li><a href="#">Ecommerce Hosting</a></li>
+
+        <li><a href="#">Free Website Hosting</a></li>
+
+
+
+    </ul>
+   </div>
+
+
+
+
+
+
+   <div class="footersub3">
+    <h4>Tools</h4>
+    <ul>
+        <li><a href="#">Online Store</a></li>
+        <li><a href="#">Website Builder</a></li>
+        <li><a href="#">Ai Website Builder</a></li>
+        <li><a href="#">Logo Maker</a></li>
+        <li><a href="#">Ecommerce Hosting</a></li>
+        <li><a href="#">Free Website Hosting</a></li>
+
+    </ul>
+    </div>
+
+
+
+
+
+     <div class="footersub4">
+    <h4>Information</h4>
+    <ul>
+        <li><a href="#">Migrate to hostinger</a></li>
+        <li><a href="#">System Status</a></li>
+         <li><a href="#">Affliate Program</a></li> 
+          
+         <li><a href="#">Payment Methods</a></li>
+         <li><a href="#">Wall of Frame</a></li> 
+
+         <li><a href="#">Reviews</a></li>
+         <li><a href="#">Pricing</a></li> 
+
+         <li><a href="#">Sitemap</a></li> 
+         <li><a href="#">Reviews</a></li>
+       
+
+    </ul>
+   </div>
+ </div>
+
+
+
+
+
+
+
+ <div class="footersub5">
+  <h4>Company</h4>
+  <ul>
+      <li><a href="#">About Hostinger</a></li>
+      <li><a href="#">Website Builder</a></li>
+      <li><a href="#">Ai Website Builder</a></li>
+      <li><a href="#">Logo Maker</a></li>
+      <li><a href="#">Ecommerce Hosting</a></li>
+      <li><a href="#">Free Website Hosting</a></li>
+
+  </ul>
+  </div>
+
+
+
+
+  <div class="footersub6">
+    <h4>Help</h4>
+    <ul>
+        <li><a href="#">About Hostinger</a></li>
+        <li><a href="#">Website Builder</a></li>
+        <li><a href="#">Ai Website Builder</a></li>
+        <li><a href="#">Logo Maker</a></li>
+        <li><a href="#">Ecommerce Hosting</a></li>
+        <li><a href="#">Free Website Hosting</a></li>
+  
+    </ul>
+    </div>
+  
+
+  <div  class="rights-info" >
+    
+    <p>&copy; 2024 Hostinger International Ltd. All rights reserved.</p>
+
+  </div>
+  
+   </div>
+
+    </div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    
+</body>
+</html>

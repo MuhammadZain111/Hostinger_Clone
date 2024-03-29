@@ -1,0 +1,81 @@
+*
+{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+
+html,body
+{
+width:100%;
+height:100%;
+font-family: DM Sans,sans-serif;
+}
+
+
+
+
+@media screen and (min-width:500px) {
+  #footerheading
+   { 
+    font-size: 20px !important;
+    font-weight:900 !important ;
+    
+    }
+  }
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+  .main-container .herosection .leftcontainer .mainheading
+   { 
+    text-align:start !important;   
+    }
+  }
+
+
+  
+@media screen and (min-width:500px) {
+    .smallscreen-slider
+     { 
+       display:none;       
+      }
+    }
+  
+  
+    @media screen and (max-width:500px) {
+      .slider
+       { 
+         display:none;
+      
+        }
+      
+      }
+    
+  
+
+      .container {
+        position: relative;
+      }
+      
+      .hostingitems {
+        display: none;
+        transition: height 0.3s ease; /* Add transition for smooth height change */
+        overflow: hidden; /* Hide overflow to prevent content from showing when items are hidden */
+      }
+      
+      .expanded {
+        height: auto !important; /* Override height to auto when items are expanded */
+      }
+
+/* 
+      #text
+      {
+font-size:14px;
+
+      } */

@@ -37,14 +37,15 @@
 
  
 <!-------------- Here the code for the header section starts ---------->
-<header  id="mobile-menu " class="header  border-bottom-4 border-black w-full h-20 sm:h-20  bg-white fixed-top flex  justify-content-between         overflow-hidden   ">
+
+<header  id="mobile-menu " class="header  border-bottom-4 border-black w-full h-20 sm:h-20  bg-white fixed-top flex  justify-content-between  lg:pr-2       overflow-hidden      ">
 
 <div class=" inline-block bg-red   "  > 
 <div class="logo w-40   sm:w-[40%]  sm:p-6 h-full p-3   object-contain" id="logo"><img class="logo_image" src="/Tailwind/logo.png" alt"Hostinger"></div>
 <div class="flag" id="flag"><img class="flag_image" src="" alt"Hostinger"></div>
 </div>
 
-<nav   class="nav flex flex-row  hidden  lg:block lg:p-8 lg:flex lg:items-center  lg:gap-14    " >
+<nav   class="nav flex flex-row  hidden  lg:block lg:p-6 lg:flex lg:items-center  lg:gap-8  ml-12  " >
 
  <div class="relative inline-block text-left">
   <div>
@@ -113,7 +114,7 @@
 
 <div class="main-container w-full h-auto  min-w-full max-h- min-h-full  mt-20  bg-transparent overflow-x-hidden z-1000 "> 
   
-  <div class="herosection  pb-6  border-box w-full h-full min-h-full  max-h-full  min-w-full max-w-full flex flex-col  lg:flex-row  lg:max-w-full lg:mt-[3%]  lg:gap-x-10    lg:px-[9%]    overflow-hidden   ">
+  <div class="herosection  pb-6  border-box w-full h-full min-h-full  max-h-full  min-w-full max-w-full flex flex-col  lg:flex-row  lg:max-w-full lg:mt-[3%]  lg:gap-x-10    lg:px-[9%]      ">
 
     <div class="leftcontainer  w-full  min-h-full max-h-full flex flex-col  items-center  text-[#2f1c6a] mb-8  lg:items-start   lg:w-[45%]  h-full  lg:pr-6  lg:items-start lg:mb-4  " id="innercon">
     
@@ -187,15 +188,19 @@
 
 
 
+ <!-- Here is thecode for the heading section -->
+
+ <div class="center flex flex-column py-3 items-center text-2xl w-full h-32 mt-12 sm:h-44 md:h-48  lg:h-52  font-medium  sm:text-3xl sm:font-semibold sm:mt-12  sm:py-6  lg:text-4xl  lg:font-semibold lg:py-8 sm:w-full  "> 
+    
+  <h1 class="h-primary  text-[#2f1c6a]  font-bold  lg:px-[9%]    ">Pick Your Perfect Plan</h1></div> 
 
 
 
-  <!-- here  is the container of the services section for small screen slider -->
+
+  <!-- here  is the container of the services section for SMALL SCREEN slider final -->
     
 
-<!-- 
-
-    <div class="slide smallscreen-slider   "    id="#services" >
+    <div class="slide smallscreen-slider  block  sm:hidden "    id="#services" >
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -206,7 +211,7 @@
         <div class="carousel-item active">
           <div class="col-md-4   ">
   
-              here box-1 code starts 
+              <!-- here box-1 code starts  -->
   
             <div class="box border-1 max-w-full  w-[80%] mx-8 px-8  sm:mx-0 sm:w-[28%]  border-gray  flex flex-col  text-[#2f1c6a]  sm:px-8    sm:py-8  rounded-sm  shadow-transparent " id="box1">
    
@@ -312,7 +317,7 @@
         <div class="carousel-item">
           <div class="col-md-4">
 
-          here box -2 code starts
+          <!-- here box -2 code starts -->
           
   <div class="box border-1 max-w-full  w-[80%] mx-8 px-8  sm:mx-0 sm:w-[28%]  border-gray  flex flex-col  text-[#2f1c6a]  sm:px-8    sm:py-8  rounded-sm  shadow-transparent  mb-12      " id="box1">
    
@@ -402,11 +407,10 @@
             <div class="py-2 flex">
               <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
               <span class="font-bold" id="bold">Free </span><span id="text">1-clik WordPress Installation</span></div>  
-     
-
-        
+           
           </div>
  
+     
           
         <div class="morefeatures" id="morefeatures">See less features</div>
          <span><img src=""   ></span>
@@ -421,8 +425,8 @@
 
         <div class="carousel-item">
           <div class="col-md-4">
-            
-here the box3 starts
+<!--             
+here the box3 starts -->
   <div class="box  border-1  max-w-full w-[80%] mx-8 px-8  sm:mx-0  sm:w-[28%]  border-[#673DE6]    flex flex-col  text-[#2f1c6a]  px-8 py-8  rounded-sm  " id="box2">
        
        <div  class="popular" id="popular"><p>Most Popular</p></div>
@@ -540,23 +544,16 @@ here the box3 starts
 
   </div>
   
--->
 
+</div>
 
-  <!-- Here is thecode for the heading section -->
+</div>
 
-  <div class="center flex flex-column py-3 items-center text-2xl w-full h-32 mt-12 sm:h-44 md:h-48  lg:h-52  font-medium  sm:text-3xl sm:font-semibold sm:mt-12  sm:py-6  lg:text-4xl  lg:font-semibold lg:py-8 sm:w-full  "> 
-    
-    <h1 class="h-primary  text-[#2f1c6a]  font-bold  lg:px-[9%]    ">Pick Your Perfect Plan</h1></div> 
+<!-- ---Here is the code for the Services BOX for the large screens  -->
 
+<div class="slider  w-full h-auto sm:w-full  mb-20  lg:mb-16  lg:px-[9%]  hidden  md:block ">
 
-
-
-<!-- ---Here is the code for the slider  for the small screens  -->
-
-<div class="slider">
-
-  <section class="servicescontainer w-full h-auto sm:w-full  mb-20  lg:mb-16  lg:px-[9%]   ">
+  <section class="  servicescontainer    ">
 
       <div class="services w-full h-auto flex flex-col sm:flex-row  sm:gap-x-10   sm:mx-[5%]    lg:gap-x-10  lg:mx-[5%]   ">
      
@@ -595,9 +592,9 @@ here the box3 starts
           
         <div class="thinline bg-[#94a3b8] w-[90%] h-1  mb-2 mt-5 "  id="line"></div>
  
-        <div class="pricing  mt-8   ">
+        <div class="pricing  mt-6   ">
  
-          <div class=" font-bold  text-lg mb-4 "> 
+          <div class=" font-bold  text-lg mb-3 "> 
           <span    id="features">Top Features</span>
         </div>
 
@@ -627,8 +624,35 @@ here the box3 starts
                   <div class="py-2 flex">
                     <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
                     <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
-               
+
+                    <div class="py-2 flex">
+                      <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                      <span class="font-bold pr-1 " id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
          
+                      
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold  pr-1 " id="bold">Weekly</span><span id="text">Backups</span></div>  
+                        
+                        <div class="py-2 flex">
+                          <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                          <span class="font-bold  pr-1" id="bold">Standard</span><span id="text">Websites</span></div>  
+                      
+                          <div class="py-2 flex">
+                            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                            <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+                            <div class="py-2 flex">
+                              <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                              <span class="font-bold  pr-1" id="bold">Standard</span><span id="text">Websites</span></div>  
+                          
+                              <div class="py-2 flex">
+                                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                                <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+            
+                       
+                   
+    
+
           </div>
  
           <br></br>
@@ -653,10 +677,25 @@ here the box3 starts
               <div class="py-2 flex">
                 <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
                 <span class="font-bold   pr-1  " id="bold">Free </span><span id="text">1-clik WordPress Installation</span></div>  
+               
+                <div class="py-2 flex">
+                  <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                  <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+
+
+
+
+
         </div>
  
           
-        <div class="morefeatures" id="morefeatures">See less features</div>
+        <div class="morefeatures   font-bold   mt-4  text-center" id="morefeatures">See less features</div>
          <span><img src=""   ></span>
 
       </div>
@@ -665,8 +704,8 @@ here the box3 starts
 
       <div class="box  border-1  max-w-full w-[80%] mx-8 px-8  sm:mx-0  sm:w-[28%]  border-[#673DE6]    flex flex-col  text-[#2f1c6a]  px-8 py-8  rounded-sm  " id="box2">
        
-       <div  class="popular" id="popular"><p>Most Popular</p></div>
-          
+       <!-- <div  class="bg-[#f8bbd0] text-[#fc5185] p-2  font-bold rounded-full    h-8 w-32  bg-[#2f1c6a]  relative  top-[-10] left-0  " id="popular"><p>Most Popular</p></div>
+           -->
       <div  class="   mb-6  "    >
         <h2 class="secondarycenter   text-center  text-xl font-bold text-[#2f1c6a]            ">Business</h2> 
         <p class="intro  font-medium font-[#2f1c6a] ">Level-up with more power and enhanced features</p>    
@@ -703,11 +742,11 @@ here the box3 starts
          
  
           <div class="pricing  ">
-            <div class="  text-lg mb-4"   >
+            <div class="  text-lg mb-3"   >
               <span class="features font-black  ">Top Features</span>
             </div>
        
-            <div class="pricing  mt-8   ">
+            <div class="pricing  mt-6  ">
  
             
     
@@ -718,28 +757,64 @@ here the box3 starts
             
               <div class="py-2 flex">
                 <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+                <span class="font-bold  pr-1 " id="bold">Standard</span><span id="text">Performance</span></div>  
      
                 
                 <div class="py-2 flex">
                   <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                  <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+                  <span class="font-bold  pr-1 " id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
      
                   
                   <div class="py-2 flex">
                     <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                    <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                    <span class="font-bold pr-1  " id="bold">Weekly</span><span id="text">Backups</span></div>  
                     
                     <div class="py-2 flex">
                       <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
-                      <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                      <span class="font-bold   pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
                   
                       <div class="py-2 flex">
                         <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                        <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
+                        <span class="font-bold   pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+                           
+                    <div class="py-2 flex">
+                      <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                      <span class="font-bold   pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
+                  
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold   pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+
+   
+                        <div class="py-2 flex">
+                          <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                          <span class="font-bold   pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
+                      
+                          <div class="py-2 flex">
+                            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                            <span class="font-bold   pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
               </div>
         
+
+
+
+              
          </div>
     
              <br></br>
@@ -766,11 +841,27 @@ here the box3 starts
 
                    
 
+                    <div class="py-2 flex">
+                      <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                      <span class="font-bold   pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
+                  
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold   pr-1 " id="bold">Standard </span><span id="text"> Websites</span></div>  
 
 
 
-             </div>
-        </div>
+                        <div class="py-2 flex">
+                          <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
+                          <span class="font-bold   pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
+                   </div>
+
+    
+                   <div class="morefeatures   font-bold   mt-4  text-center" id="morefeatures">See less features</div>
+                   <span><img src=""   ></span>
+          
+
+            </div>
      
        
         <div class="box border-1 w-[80%] max-w-full    mx-8 px-8 sm:mx-0  sm:w-[28%]    border-gray    flex flex-col  text-[#2f1c6a]  px-8 py-8  rounded-sm    " id="box3">
@@ -801,13 +892,13 @@ here the box3 starts
               <button type="button" class="btn max-w-full max-h-full  overflow-hidden     text-white text-center font-bold " id="cart-btn1">Add to Cart</button> </div>
              
              <span id="lower_txt   font-medium  mb-4   ">Rs.1,099/mo when you renew</span>
-    
+
+             <div class="thinline bg-[#94a3b8]  w-[90%] h-1  mb-2 mt-5 "  id="line"></div>
+
              </div>
             
               
-            <div class="thinline  color-gray-500  w-[90%] h-1   mb-4  "  id="line"></div>
-     
-            <div class="pricing  mt-8   ">
+         <div class="pricing  mt-8   ">
      
               <div class=" font-bold  text-lg mb-4 "> 
               <span    id="features">Top Features</span>
@@ -815,46 +906,80 @@ here the box3 starts
     
             <div class="py-2 flex">
               <div class="h-6 w-8 "><img  class="max-h-full text-red-500 object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-              <span class="font-bold   " id="bold">Standard </span><span id="text">  Websites</span></div>  
+              <span class="font-bold  pr-1 " id="bold">Standard </span><span id="text">  Websites</span></div>  
      
             
               <div class="py-2 flex">
                 <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                <span class="font-bold" id="bold">Standard</span><span id="text">Performance</span></div>  
+                <span class="font-bold  pr-1 " id="bold">Standard</span><span id="text">Performance</span></div>  
      
                 
                 <div class="py-2 flex">
                   <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                  <span class="font-bold" id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+                  <span class="font-bold  pr-1 " id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
      
                   
                   <div class="py-2 flex">
                     <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                    <span class="font-bold" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                    <span class="font-bold  pr-1 " id="bold">Weekly</span><span id="text">Backups</span></div>  
                     
                     <div class="py-2 flex">
                       <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
-                      <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                      <span class="font-bold  pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
                   
                       <div class="py-2 flex">
                         <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
-                        <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div> 
+                        <span class="font-bold   pr-1" id="bold">Standard </span><span id="text"> Websites</span></div> 
                         
                         <div class="py-2 flex">
                           <div class="h-8 w-10 color-red-500 "><img  class="max-h-full  object-contain"  src="/Tailwind/cross.svg" id="tick"> </div>
-                          <span class="font-bold" id="bold">Standard</span><span id="text">Websites</span></div>  
+                          <span class="font-bold  pr-1 " id="bold">Standard</span><span id="text">Websites</span></div>  
                       
                           <div class="py-2 flex">
                             <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" > </div>
-                            <span class="font-bold" id="bold">Standard </span><span id="text"> Websites</span></div>  
-    
+                            <span class="font-bold  pr-1  " id="bold">Standard </span><span id="text"> Websites</span></div>  
+       
+                            <div class="py-2 flex">
+                              <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                              <span class="font-bold  pr-1" id="bold">Weekly</span><span id="text">Backups</span></div>  
+                  
+                              <div class="py-2 flex">
+                                <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                                <span class="font-bold  pr-1  " id="bold">Weekly</span><span id="text">Backups</span></div>  
+               
+                                   
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold   pr-1" id="bold">Weekly</span><span id="text">Backups</span></div>  
+               
+                       
+                  <div class="py-2 flex">
+                    <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                    <span class="font-bold  pr-1" id="bold">Weekly</span><span id="text">Backups</span></div>  
+               
 
-
-
-
-
-
-
+                    <div class="py-2 flex">
+                      <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                      <span class="font-bold pr-1" id="bold">Standard</span><span id="text">Performance</span></div>  
+           
+                      
+                      <div class="py-2 flex">
+                        <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                        <span class="font-bold pr-1 " id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+           
+                        
+        
+                        <div class="py-2 flex">
+                          <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                          <span class="font-bold pr-1" id="bold">Standard</span><span id="text">Performance</span></div>  
+               
+                          
+                          <div class="py-2 flex">
+                            <div class="h-6 w-8 "><img  class="max-h-full  object-contain"  src="/Tailwind/greentick.svg" id="tick"> </div>
+                            <span class="font-bold pr-1 " id="bold">100 GB</span><span id="text">SSd Storage</span></div>  
+               
+                            
+                                
 
 
           </div>
@@ -884,7 +1009,7 @@ here the box3 starts
               </div>
      
               
-            <div class="morefeatures" id="morefeatures">See less features</div>
+            <div class="morefeatures   font-extrabold text-center  mt-4" id="morefeatures">See less features</div>
              <span><img src=""   ></span>
     
           </div>
@@ -1004,7 +1129,7 @@ here the box3 starts
 
 <!-- here the code for the web-sol contanber starts -->
 
-  <div class="webspeed-container h-full      w-full flex-col  py-16 sm:py-16  md:py-24   sm:mx-4 md:mx-[5%] lg:mx-[4%]  md:mb-32   text-[#2f1c6a] lg:px-[10%]   overflow-hidden    ">
+  <div class="webspeed-container h-full  w-full flex-col  py-16 sm:py-16  md:py-24   sm:mx-4 md:mx-[5%] lg:mx-[4%]  md:mb-32   text-[#2f1c6a] lg:px-[10%]   overflow-hidden    ">
 
 <div   class="webspeedone flex   max-w-full w-full h-auto flex flex-col sm:flex-row  sm:gap-x-14  lg:pb-4   " >
 
@@ -1173,7 +1298,7 @@ here the box3 starts
         <h2 class="text-3xl font-extrabold mb-4">Join 2,002,312 Website Owners</h2>
         </div>
         
-        <div  class="max-w-full  h-12  w-64     " >
+        <div  class="max-w-full  h-12  w-64  mb-4   " >
           <button class="h-full max-w-full w-full  bg-[#673de6]  text-[#fff] rounded-lg font-bold  " >Get Started</button>
         </div>
 <!--         
@@ -1453,6 +1578,54 @@ here the box3 starts
   </div>
 
 
+<!--Here the code for the information section of the footer starts -->
+  
+<div class="col-md-6a  col-span w-full h-16 sm:h-auto sm:pt-4  lg:ml-12 footercontainer  col-span-1        ">
+
+  <div class="seconditem  flex items-center justify-between  toggle-arrow ">
+  <div class=" font-black  lg:font-bold  text-lg     "      >
+  <h4 id="footerheading" >Information</h4>
+  </div> 
+ <div class="block sm:hidden  w-8 h-8    ">
+<img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
+  </div>
+</div>  
+
+<div class="hostingitems hidden sm:block   " id="content">
+
+  <ul>
+    <li class="my-2 " ><a href="#">Migrate to hostinger</a></li>
+    <li  class="my-2 "  ><a href="#">System Status</a></li>
+     <li class="my-2 "  ><a href="#">Affliate Program</a></li> 
+     <li  class="my-2 " ><a href="#">Payment Methods</a></li>
+     <li  class="my-2 "  ><a href="#">Wall of Frame</a></li> 
+     <li  class="my-2 " ><a href="#">Reviews</a></li>
+     <li class="my-2 "><a href="#">Pricing</a></li> 
+     <li class="my-2 " ><a href="#">Sitemap</a></li> 
+</ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Here  the code for the tools section starts -->
 
@@ -1482,34 +1655,6 @@ here the box3 starts
    </div>
   </div>
 
-
-<!--Here the code for the information section of the footer starts -->
-  
-<div class="col-md-6a  col-span w-full h-16 sm:h-auto sm:pt-4  lg:ml-12 footercontainer      ">
-
-  <div class="seconditem  flex items-center justify-between  toggle-arrow ">
-  <div class=" font-black  lg:font-bold  text-lg     "      >
-  <h4 id="footerheading" >Information</h4>
-  </div> 
- <div class="block sm:hidden  w-8 h-8    ">
-<img id="toggleButton" class="h-full w-full max-w-full object-contain toggleButton   " src="/Tailwind/arrow.svg" >  
-  </div>
-</div>  
-
-<div class="hostingitems hidden sm:block   " id="content">
-
-  <ul>
-    <li class="my-2 " ><a href="#">Migrate to hostinger</a></li>
-    <li  class="my-2 "  ><a href="#">System Status</a></li>
-     <li class="my-2 "  ><a href="#">Affliate Program</a></li> 
-     <li  class="my-2 " ><a href="#">Payment Methods</a></li>
-     <li  class="my-2 "  ><a href="#">Wall of Frame</a></li> 
-     <li  class="my-2 " ><a href="#">Reviews</a></li>
-     <li class="my-2 "><a href="#">Pricing</a></li> 
-     <li class="my-2 " ><a href="#">Sitemap</a></li> 
-</ul>
-</div>
-</div>
 
 
 <!-- Here the Code for the Vision Section of the footer Starts -->
@@ -1577,8 +1722,8 @@ here the box3 starts
 
 </footer>
 
-</div> -->
-
+</div> 
+</div>
 
 
 

@@ -25,12 +25,6 @@ font-family: DM Sans,sans-serif;
   }
 
 
-
-
-
-
-
-
 @media screen and (min-width:1000px) {
   .main-container .herosection .leftcontainer .mainheading
    { 
@@ -39,16 +33,16 @@ font-family: DM Sans,sans-serif;
   }
 
 
-  
+/* 
 @media screen and (min-width:500px) {
     .smallscreen-slider
      { 
        display:none;       
       }
-    }
+    } */
   
   
-    @media screen and (max-width:500px) {
+    /* @media screen and (max-width:500px) {
       .slider
        { 
          display:none;
@@ -56,7 +50,7 @@ font-family: DM Sans,sans-serif;
         }
       
       }
-    
+     */
   
 
       .container {
